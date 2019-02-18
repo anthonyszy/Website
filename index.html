@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="./style/reset.css">
+      <link href="./style/hamburgers.css" rel="stylesheet">
+      <link href="./style/fullpage.css" rel="stylesheet">
+      <link rel="stylesheet" href="./style/style.css">
+      <script type="text/javascript" src="script/script.js"></script>
+      <script type="text/javascript" src="./script/fullpage.js"></script>
+      <script src="https://unpkg.com/scrollreveal@4"></script>
+    	<script>
+    		ScrollReveal({ duration: 1000 })
+    	</script>
+
+    <title>Anthony Szymaniak</title>
+  </head>
+
+  <body>
+
+    <div class="background-fixed">
+      <img src="./images/index-background.jpg" alt="">
+    </div>
+
+  <nav>
+    <div class="nav-container">
+      <div id="menu-button">
+      <button class="hamburger hamburger--spring-r" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      </div>
+  </nav>
+
+    <div id="menu-container">
+      <div class="menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html">Projects</a></li>
+        <li><a href="./index.html">About</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <main id ="fullpage">
+      <div class="section">
+
+      <div class="intro-container">
+        <div class="intro">
+          <h2>
+            <em>Anthony Szymaniak</em>
+            <br>UX/UI Designer
+            <br>London
+          </h2>
+        </div>
+    <div class="header-container">
+      <h6>scroll down</h6>
+    </div>
+  </div>
+</div>
+
+  <div class="section"><a href="./home.html">
+    <div class="index-project-one-container">
+      <div class="index-project-one">
+        <div class="project-name">
+          <h1>Mercedes-Benz</h1>
+          <p>- Careers Website</p>
+        </div>
+        <div class="index-project-item">
+
+<img src="./images/index-188bet.png" alt="Metropolitan-police">
+
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+
+<div class="section">
+    <div class="index-project-two-container">
+      <div class="index-project-one">
+        <div class="project-name">
+          <h1>DLA Piper</h1>
+          <p>- Careers Website</p>
+        </div>
+        <div class="index-project-item">
+<img src="./images/index-188bet.png" alt="Metropolitan-police">
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="index-project-three-container">
+      <div class="index-project-one">
+        <div class="project-name">
+          <h1>Metropolitan Police</h1>
+          <p>- Careers Mircrosite</p>
+        </div>
+        <div class="index-project-item">
+<img src="./images/index-188bet.png" alt="Metropolitan-police">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+  </main>
+
+
+
+  </body>
+
+
+
+  <script>
+    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+          this.classList.toggle("is-active");
+        }, false);
+      });
+    }
+  </script>
+
+  <script>
+  ScrollReveal().reveal('.intro-container' , { delay: 600 })
+  ScrollReveal().reveal('.background-fixed img', { delay: 800 })
+  ScrollReveal().reveal('.header-container', { delay: 600 })
+
+
+</script>
+
+  <script type="text/javascript" src="http://expansionscollective.com/testscripts/jquery.fullPage.js"></script>
+<script> $(document).ready(function() { $('#fullpage').fullpage(); });</script>
+
+</html>
