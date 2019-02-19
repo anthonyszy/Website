@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-		sectionsColor: ['#0F2980', '#ffd200', '#c1c1c1'],
+		sectionsColor: ['transparent', 'transparent', 'transparent'],
 		anchors:['firstSection', 'secondSection', 'thirdSection'],
 		menu: '.main-nav ul',
 	});
