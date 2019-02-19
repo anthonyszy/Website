@@ -241,7 +241,7 @@ height: 100vh;
   position: relative;
 }
 
-.section .project-name h1,
+/* .section .project-name h1,
 .section .project-name p {
   transform: translateY(250px);
 	opacity: 0;
@@ -257,4 +257,4 @@ height: 100vh;
 
 .section.active .project-name p {
 	transition-delay: 0.15s;
-}
+} */
