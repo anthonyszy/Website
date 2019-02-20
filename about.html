@@ -8,68 +8,86 @@
     	<link rel="stylesheet" href="style/style.css">
       <link rel="stylesheet" href="style/hamburgers.css" >
   </head>
+  <body>
 
-  <body id="aboutpage">
+    <!-- <div class="background-fixed">
+      <img src="./images/index-background.jpg" alt="">
+    </div> -->
 
-    <nav>
-      <div class="nav-container">
-        <div id="menu-button">
-        <button class="hamburger hamburger--spring-r" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-            </span>
-          </button>
-        </div>
-        </div>
-    </nav>
-
-      <div id="menu-container">
-        <div class="menu">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./index.html">Projects</a></li>
-          <li><a href="./about.html">About</a></li>
-        </ul>
-        </div>
-
-<div id="mobile-menu-container">
-  <div class="mobile-menu">
-    <ul>
-      <li><a id="projects-link-mobile" href="#">PROJECTS</a></li>
-      <li><a href="./about.html">ABOUT</a></li>
-    </ul>
-  </div>
-</div>
-
-
-<main id ="about-page">
-    <div class="about-container">
-          <h1>Hello</h1>
-          <br>
-          <p>My name is Anthony Szymaniak and I'm a UX/UI Designer from London, currently working at award-winning agency Pink Squid, where I have worked with a range of clients including, Mercedes-Benz, DLA Piper, Jaguar Land Rover and Boots.</p>
-            <p>If you'd like to reach out about a potential project or find out more about me please feel free to get in touch.</p>
-            <p><a href="mailto:hello@eyeoftheant.com">Email</a>  /  <a href="https://www.linkedin.com/in/anthony-szymaniak-0a20a373/" target="_blank" >Linkedin</a></p>
-            <p>Website designed and developed by Anthony Szymaniak.</p>
+  <nav>
+    <div class="nav-container">
+      <div id="menu-button">
+      <button class="hamburger hamburger--spring-r" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+          </span>
+        </button>
       </div>
+      </div>
+  </nav>
+
+    <div id="menu-container">
+      <div class="menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html">Projects</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <main id ="fullpage">
+      <div class="section">
+
+      <div class="about-container">
+        <div class="about-background">
+          <h3>HELLO</h3>
+        </div>
+        <div class="about-info">
+          <p>
+             <em>My name is Anthony Szymaniak</em>
+<br><br>
+            and I'm a UX/UI Designer from London, currently working at award-winning agency Pink Squid, where I have worked with a range of clients including, Mercedes-Benz, DLA Piper, Jaguar Land Rover, Boots and Euler Hermes.
+            <br><br>If you'd like to reach out about a potential project or find out more about me please feel free to get in touch.
+          </p>
+          </div>
+    <div class="header-container">
+      <h6><a href="mailto:hello@eyeoftheant.com">Email</a>  /  <a href="https://www.linkedin.com/in/anthony-szymaniak-0a20a373/" target="_blank" >Linkedin</a></h6>
+      <p>Website designed and developed by Anthony Szymaniak.</p>
+    </div>
+  </div>
+  </div>
+
+
+
   </main>
 
-  
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <script src="js/jquery.fullpage.min.js"></script>
   <script src="js/scripts.js"></script>
 
   <!-- hamburger menu -->
 
-    <script>
-      var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+  <script>
+    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
 
-      var hamburgers = document.querySelectorAll(".hamburger");
-      if (hamburgers.length > 0) {
-        forEach(hamburgers, function(hamburger) {
-          hamburger.addEventListener("click", function() {
-            this.classList.toggle("is-active");
-          }, false);
-        });
-      }
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+          this.classList.toggle("is-active");
+        }, false);
+      });
+    }
+  </script>
+
+  <!-- ScrollReveal -->
+
+  <script>
+  ScrollReveal().reveal('.intro-container' , { delay: 600 })
+  ScrollReveal().reveal('.background-fixed img', { delay: 800 })
+  ScrollReveal().reveal('.header-container', { delay: 600 })
+  </script>
 
 
   </body>

@@ -22,10 +22,12 @@ h2 {
   letter-spacing: 2px;
 }
 
+
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 100;
+  line-height: 35px;
 }
 
 h6 {
@@ -141,7 +143,7 @@ background: white;
   max-width:100%;
   height:auto;
   display: inline;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .intro-container {
@@ -220,6 +222,7 @@ height: 100vh;
   color:#5f5e5e;
 }
 
+
 .index-project-one {
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
@@ -247,3 +250,77 @@ height: 100vh;
   width: 100%;
   position: relative;
 }
+
+
+/*------about page----- */
+
+.about-container{
+height: 100vh;
+width: 100%;
+position: relative;
+}
+
+
+.about-container .header-container {
+  top: 70%; left: 20%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 25%;
+
+}
+
+.about-background {
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 80%;
+}
+
+.about-info {
+  top: 30%; left: 20%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 25%;
+}
+.about-info em{
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.about-container h3 {
+  text-align: center;
+  font-size: 500px;
+  color: transparent;
+  -webkit-text-stroke-width: 0.30px;
+  -webkit-text-stroke-color: #5f5e5e;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.about-container p {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.about-container .header-container h6,
+.about-container .header-container h6 a,
+.about-container .header-container p{
+  text-align: left;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.about-container .header-container p{
+  font-size: 15px;
+  color: #5f5e5e;
