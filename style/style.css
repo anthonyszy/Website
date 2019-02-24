@@ -2,8 +2,8 @@ html{
 
 }
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #574d97;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -13,6 +13,7 @@ h1 {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  color: #574d97;
 }
 
 h2 {
@@ -71,20 +72,21 @@ li {
 
 /*//------main-menu-page-------- */
 
-#menu-container {
+.menu-container {
   width: 100%;
   height: 100vh;
+  bottom: 0;
   position: fixed;
-  display: none;
   letter-spacing: 0.3em;
   z-index: 9;
   overflow: scroll;
-  background: black;
+  background: #e8e8e8;
 }
 .menu {
   top: 50%;
   Left: 50%;
-  position: fixed;
+  position: absolute;
+  background-color: red;
 }
 .menu ul {
   top: 50%;
@@ -100,35 +102,32 @@ li {
   margin: 2.7vh;
 }
 .menu ul li a{
-  font-size: 30px;
-  color: white;
+  font-family: 'moderat';
+  font-size: 27px;
+  color: #574d97;
   text-decoration: none;
   line-height: 3em;
   text-align: center;
-  font-weight: 600;
-  letter-spacing: 18px;
+  font-weight: 500;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
 
 
-.menu li a:hover {
-  color: #1d1d1d;
-} */
-
-
-.menu li{
+/* .menu li{
 display: inline-block;
 }
-/* .menu li:after {
+.menu li:after {
 content: '';
 display: block;
 height: 1px;
 width: 0;
 background: transparent;
 transition: width .5s ease, background-color .5s ease;
-} */
-/* .menu li:hover:after {
+}
+
+.menu li:hover:after {
 width: 100%;
 background: white;
 } */
@@ -163,7 +162,8 @@ height: 100vh;
   position: relative;
   left: 0;
   bottom: 0;
-  color: #5f5e5e;
+  color: #574d97;
+  opacity: 0.5;
 }
 
 .intro{
@@ -219,7 +219,7 @@ height: 100vh;
   text-align: center;
   padding-top: 20px;
   letter-spacing: 2px;
-  color:#5f5e5e;
+  color:#574d97;
 }
 
 
