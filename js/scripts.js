@@ -46,10 +46,20 @@ $(document).ready(function() {
 // });
 
 
+
+
+
 $("#menu-button").click(function() {
   $('.menu-container').toggleClass('transform-active');
   $('.menu').toggleClass('transform-active');
 });
+
+
+
+
+// AOS.init({
+//   duration: 1200,
+// });
 
 
 // var menuButton = document.querySelector('#menu-button');

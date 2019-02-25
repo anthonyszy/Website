@@ -46,7 +46,7 @@
   transform: translateY(500px);
   opacity: 0;
   transition-delay: 0.30s;
-  transition: 2s;
+  transition: 1.40s;
 }
 .transform-active {
   opacity: 1;
