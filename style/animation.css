@@ -19,8 +19,8 @@
 .section .mask{
   transform: translateY(0px);
   opacity: 1;
-	transition: transform 2.20s cubic-bezier(0.50, 0.38, 0.23, 0.89),
-				opacity 1.50s ease-in-out;
+	transition: transform 2.30s cubic-bezier(0.50, 0.68, 0.43, 0.99),
+				opacity 3s ease-in-out;
   /* transform: matrix(1, 0, 0, 1, 0, -1005); */
 
 }
@@ -98,17 +98,17 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 
-/* .section .index-project-image img {
-  transform: translateY(450px);
+.section .index-project-image img {
+  transform: translateY(200px);
   opacity: 0;
-  transition: transform 2.05s cubic-bezier(0.50, 0.68, 0.43, 0.99),
+  transition: transform 2s cubic-bezier(0.50, 0.68, 0.43, 0.99),
         opacity 1s ease-in-out;
 }
 
 .section.active .index-project-image img {
   transform: translateY(0px);
   opacity: 1;
-} */
+}
 
 
 
