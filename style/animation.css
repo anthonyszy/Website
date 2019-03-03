@@ -26,7 +26,7 @@
 }
 
 .section.active .mask{
-  transform: translateY(-1000px);
+  transform: translateY(-1200px);
   opacity: 1;
 }
 
@@ -98,7 +98,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 
-.section .index-project-image img {
+/* .section .index-project-image img {
   transform: translateY(450px);
   opacity: 0;
   transition: transform 2.05s cubic-bezier(0.50, 0.68, 0.43, 0.99),
@@ -108,7 +108,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 .section.active .index-project-image img {
   transform: translateY(0px);
   opacity: 1;
-}
+} */
 
 
 
