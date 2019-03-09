@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 28px;
   font-family: 'moderat';
   font-weight: 400;
   text-align: center;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Frank Ruhl Libre', serif;
   font-weight: 100;
   letter-spacing: 2px;
@@ -108,10 +108,10 @@ li {
   background: #f7f7f7;
 }
 .menu {
-  top: 50%;
-  Left: 50%;
   position: absolute;
-  background-color: red;
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
 }
 .menu ul {
   top: 50%;
@@ -125,6 +125,7 @@ li {
   white-space: nowrap;
   text-align: center;
   margin: 2.7vh;
+
 }
 .menu ul li a{
   font-family: 'moderat';
@@ -207,59 +208,37 @@ right: 17.361%;
 
 .menu-right {
     position: absolute;
+    height: 100%;
     width: 17.361%;
+    top: 0;
     right: 0;
-    bottom: 50%;
     z-index: 100;
   }
+
+.about-button {
+  z-index: 30;
+  position: fixed;
+  width: 17.361%;
+  top: 27.777%;
+  display: flex;
+  height: 44.446%;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+}
 
   .menu-right p {
     font-size: 15px;
     text-align:center;
-    position: relative;
-    top: 50%;
+    /* position: relative; */
   }
 
   .menu-right  p a {
+    font-weight: 700;
     color: rgb(31, 31, 31);
   }
 
 
-.intro-container {
-}
-
-.header-container {
-  width: 100%;
-  height: 50px;
-  margin: auto;
-  position: absolute;
-  bottom: 20px;
-
-}
-.header-container h6{
-  text-align: center;
-  position: relative;
-  left: 0;
-  bottom: 20px;
-}
-
-.intro{
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  width: 50%;
-  transform: translate(50%, -50%);
-}
-.intro h2 {
-  text-align: center;
-  line-height: 50px;
-}
-
-.intro p{
-  font-size: 20px;
-  text-align: center;
-}
 
 
 
@@ -275,12 +254,18 @@ right: 17.361%;
   overflow: hidden;
 }
 
+.index-project-image {
+  max-width: 120%;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .index-project-image img{
   position: relative;
   /* left: 0;
   right: 0; */
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 110%;
   max-height: 3000px; /*change for your necessity*/
   min-height:
 }
@@ -301,6 +286,7 @@ right: 17.361%;
   letter-spacing: 10px;
   line-height: 0px;
   color: white;
+  font-size: 130%;
 }
 .index-project-name p{
   position:relative;
@@ -387,3 +373,60 @@ position: relative;
 
 .about-container .header-container p{
   font-size: 15px;
+}
+
+
+  /*-----pre-loader----*/
+
+  #preloader {
+  background-color: #141417;
+  z-index: 1000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+
+  }
+
+.preloader{
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+
+}
+
+  .intro{
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100;
+    height: 180px;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+
+    }
+
+    .name {
+      position: relative;
+      width: 100%;
+    }
+
+    #preloader .intro h2 {
+    text-align: center;
+    line-height: 10px;
+    color: #f6f8fa;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    padding: 0.3em;
+  }
+
+    #preloader .intro p{
+    font-size: 20px;
+    text-align: center;
+    color: #f6f8fa;
+    font-weight: 100;
+  }
