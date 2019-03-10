@@ -6,6 +6,12 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function(){
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
+});
+
 // $(function(){
 //   $("#menu-button").on("click", function(){
 //     $("#menu-container").slideToggle();
@@ -49,7 +55,7 @@ $(document).ready(function() {
 
 
 
-$("#menu-button").click(function() {
+$("#nav-icon3 ").click(function() {
   $('.menu-container').toggleClass('transform-active');
   $('.menu').toggleClass('transform-active');
 });

@@ -53,7 +53,7 @@
 
 
 
-.section .index-project-image img {
+/* .section .index-project-image img {
   transform: translateY(240px);
   opacity: 1;
   transition: transform 2s cubic-bezier(0.50, 0.68, 0.43, 0.99),
@@ -63,7 +63,7 @@
 .section.active .index-project-image img {
   transform: translateY(0px);
   opacity: 1;
-}
+} */
 
 
 
@@ -100,10 +100,14 @@
 .preloader .intro span h2:first-child,
 .preloader .intro span h2:nth-child(2) ,
 .preloader .intro p {
-  transform: translateY(200px);
-	opacity: 1;
-	transition: transform 1s cubic-bezier(0.50, 0.68, 0.60, 0.90),
+  -webkit-transform: translateY(200px);
+      -ms-transform: translateY(200px);
+          transform: translateY(200px);
+
+  -webkit-transition: transform 1s cubic-bezier(0.50, 0.68, 0.60, 0.90),
 				opacity 2.30s ease-in-out;
+
+
 }
 
 .preloader .intro p {
@@ -156,8 +160,37 @@
 
         -webkit-transition: all 1s 2s ease-in-out;
                 transition: all 1s 2s ease-in-out;
-
+}
 
 
 
 /*------lines-draw------*/
+
+/* .background-fixed .line.top{
+  transform: translateX(2000px);
+	opacity: 0;
+	transition: transform 1s cubic-bezier(0.50, 0.68, 0.60, 0.90),
+				opacity 2.30s ease-in-out;
+}
+
+
+.loaded .background-fixed .line.topp {
+  transform: translateY(0px);
+  opacity: 0.10;
+}
+
+
+.loaded .background-fixed .line.top{
+transition-delay: 5s;
+} */
+
+
+/*
+
+.loaded .background-fixed .line.top {
+    opacity: 0;
+    -webkit-transform: translateY(-400px);
+        -ms-transform: translateY(-400px);
+            transform: translateY(-400px);
+
+    -webkit-transition: all 2.20s ease-in-out; */
