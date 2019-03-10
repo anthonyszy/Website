@@ -2,8 +2,8 @@ html{
 
 }
 body {
-  /* background-color: #141417; */
-    background-color: #0b0b0b;
+  background-color: #141417;
+    /* background-color: rgb(11,11,11); */
 
   font-family: 'Raleway', sans-serif;
 }
@@ -278,9 +278,15 @@ right: 17.361%;
 
 .menu-top {
   color: #e8e8e8;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-between;
   justify-content: center;
   align-items: center;
   position: fixed;
+  display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+  display: -moz-box;      /* OLD: Firefox (buggy) */
+  display: -ms-flexbox;   /* MID: IE 10 */
+  display: -webkit-flex;
   display: flex;
   margin: auto;
   z-index: 100;
@@ -297,14 +303,18 @@ right: 17.361%;
 
 
 .menu-left {
-      position: fixed;
-      width: 17.361%;
-      top: 27.777%;
-      display: flex;
-      height: 44.446%;
-      justify-content: center;
-      align-items: center;
-      z-index: 99;
+  position: fixed;
+  width: 17.361%;
+  top: 27.777%;
+  display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+  display: -moz-box;      /* OLD: Firefox (buggy) */
+  display: -ms-flexbox;   /* MID: IE 10 */
+  display: -webkit-flex;
+  display: flex;
+  height: 44.446%;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
   }
 
 .menu-right {
@@ -318,15 +328,21 @@ right: 17.361%;
 
 .about-button {
   z-index: 30;
-  position: fixed;
-  width: 17.361%;
+  position: relative;
+  width: 100%;
   top: 27.777%;
+  display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+  display: -moz-box;      /* OLD: Firefox (buggy) */
+  display: -ms-flexbox;   /* MID: IE 10 */
+  display: -webkit-flex;
   display: flex;
   height: 44.446%;
+  -webkit-justify-content: space-between;
   justify-content: center;
   align-items: center;
   right: 0;
   transform: rotateZ(-90deg);
+  -webkit-transform: translateZ(0);
 }
 
   .menu-right p {
@@ -342,25 +358,6 @@ right: 17.361%;
     transform: rotate(90deg);
     letter-spacing: 0.2em;
   }
-
-
-
-
-
-/* .index-project {
-  max-width: 70%;
-  max-height: 70vh;
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  overflow: hidden;
-  background: green;
-} */
-
-
 
 
 .index-project-name {
@@ -536,7 +533,7 @@ position: relative;
 
 
   .bgimg  {
-    height: 80vh;
+    height: 75vh;
     width: 70%;
     background-image: url("../images/index-mercedes-benz.jpg");
     background-size: cover;

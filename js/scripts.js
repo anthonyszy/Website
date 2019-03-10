@@ -12,6 +12,11 @@ $(document).ready(function(){
 	});
 });
 
+// $(elem).css('position', 'static');
+//   setTimeout(function() {
+//     $(elem).css('position', 'fixed');
+//   }, 1);
+
 // $(function(){
 //   $("#menu-button").on("click", function(){
 //     $("#menu-container").slideToggle();
