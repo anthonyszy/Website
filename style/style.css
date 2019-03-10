@@ -156,6 +156,7 @@ li {
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+  background: #000000;
 }
 
 #nav-icon3.open span:nth-child(3) {
@@ -163,12 +164,14 @@ li {
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  background: #000000;
 }
 
 #nav-icon3.open span:nth-child(4) {
   top: 18px;
   width: 0%;
   left: 50%;
+  background: #000000;
 }
 
 
@@ -185,27 +188,27 @@ li {
   letter-spacing: 0.3em;
   z-index: 8;
   overflow: scroll;
-  background: black;
+  background-color: #e8e8e8;
 }
 .menu {
   position: absolute;
-  height: 100vh;
   width: 100%;
-  display: inline-block;
+  top: 27.777%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 44.446%;
+  -webkit-justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  right: 0;
 }
 .menu ul {
-  top: 50%;
-  Left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
   text-align: center;
-}
-.menu ul li{
-  top: auto;
-  white-space: nowrap;
-  text-align: center;
-  margin: 2.7vh;
-
+  list-style: none;
+  padding-left: 0;
 }
 .menu ul li a{
   font-family: 'moderat';
@@ -242,10 +245,6 @@ background: white;
 /*//------home-page-------- */
 
 
-.background-fixed {
-
-}
-
 
 .background-fixed .line {
 /* transition: background-color .5s ease-in-out .1s; */
@@ -277,7 +276,6 @@ right: 17.361%;
 }
 
 .menu-top {
-  color: #e8e8e8;
   -webkit-flex-flow: row wrap;
   -webkit-justify-content: space-between;
   justify-content: center;
@@ -295,8 +293,9 @@ right: 17.361%;
 
 }
 .menu-top h2 {
+  color: #e8e8e8;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   opacity: 0.5;
 }
 
@@ -318,7 +317,7 @@ right: 17.361%;
   }
 
 .menu-right {
-    position: absolute;
+    position: fixed ;
     height: 100%;
     width: 17.361%;
     top: 0;
@@ -341,8 +340,7 @@ right: 17.361%;
   justify-content: center;
   align-items: center;
   right: 0;
-  transform: rotateZ(-90deg);
-  -webkit-transform: translateZ(0);
+  -webkit-transform:rotateZ(-90deg);
 }
 
   .menu-right p {
@@ -548,7 +546,7 @@ position: relative;
     overflow: hidden;
   }
 
-@media query (max-width: 600px) {
+/* @media query (max-width: 600px) {
 .bgimg  {
   background-position: right;
-}
+} */

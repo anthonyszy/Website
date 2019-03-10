@@ -71,6 +71,13 @@ $(window).load(function() {
 });
 
 
+$("#nav-icon3").click(function() {
+  $('.logo').toggleClass('transform-active');
+  $('.about-button').toggleClass('transform-active');
+  $('.background-fixed').toggleClass('transform-active');
+});
+
+
 // $(window).loaded(function() {
 //         $('preloader').removeClass('transform-active');
 // })';
