@@ -68,6 +68,7 @@ $("#nav-icon3 ").click(function() {
 
 $(window).load(function() {
   $('.preloader').toggleClass('transform-active');
+  $('.background-fixed').toggleClass('transform-active');
 });
 
 
