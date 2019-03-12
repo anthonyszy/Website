@@ -18,10 +18,11 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
-  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 30px;
+  font-family: 'moderat';
+  text-transform: uppercase;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 10px;
 }
 
 
@@ -91,7 +92,12 @@ li {
   list-style-type: none;
 }
 
-
+/* #overflow {
+overflow:hidden;
+padding:0;
+margin:0;
+z-index: 1000;
+} */
 
 /*-----Hamburger-menu-----*/
 
@@ -113,6 +119,7 @@ li {
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   opacity: 0.50;
+  overflow: hidden;
 }
 
 #nav-icon3 span  {
@@ -289,16 +296,22 @@ right: 17.361%;
   margin: auto;
   z-index: 100;
   width: 100%;
-  top: 30px;
+  top: 5%;
 
 }
 .menu-top h2 {
   color: #e8e8e8;
   text-align: center;
-  font-size: 50px;
-
+  font-size: 18px;
+  opacity: 0.5;
 }
 
+.logo-container {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}
 
 
 .menu-left {
@@ -341,6 +354,7 @@ right: 17.361%;
   align-items: center;
   right: 0;
   -webkit-transform:rotateZ(-90deg);
+  overflow: hidden;
 }
 
   .menu-right p {
@@ -506,10 +520,8 @@ position: relative;
     #preloader .intro h2 {
     text-align: center;
     line-height: 10px;
-    color: #0b0b0b;
-    font-family: 'Frank Ruhl Libre', serif;
+    color: #141417;
     font-weight: 100;
-    letter-spacing: 2px;
     display: inline-block;
     position: relative;
     padding-left: 0.6em;
@@ -518,7 +530,7 @@ position: relative;
     #preloader .intro p{
     font-size: 20px;
     text-align: center;
-    color:  #0b0b0b;
+    color: #141417;
     font-weight: 100;
     margin: 0;
   }

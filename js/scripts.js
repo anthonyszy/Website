@@ -3,6 +3,8 @@ $(document).ready(function() {
 		sectionsColor: ['transparent', 'transparent', 'transparent'],
 		anchors:['Mercedes-Benz', 'DLAPiper', 'Met-Police'],
 		menu: '.main-nav ul',
+
+            easingcss3: 'cubic-bezier(0.645, 0.045, 0.664, 1)'
 	});
 });
 
@@ -66,9 +68,10 @@ $("#nav-icon3 ").click(function() {
 });
 
 
-$(window).load(function() {
+$(document).ready(function(){
   $('.preloader').toggleClass('transform-active');
-  $('.background-fixed').toggleClass('transform-active');
+  $('.background-fixed').toggleClass('transform-active')
+  $('.logo').toggleClass('transform-active');
 });
 
 
