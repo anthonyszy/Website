@@ -64,19 +64,19 @@ $(document).ready(function(){
 
 $("#nav-icon3 ").click(function() {
   $('.menu-container').toggleClass('transform-active');
-  $('.menu').toggleClass('transform-active');
+  $('.menu-item').toggleClass('transform-active');
 });
 
 
 $(document).ready(function(){
   $('.preloader').toggleClass('transform-active');
-  $('.background-fixed').toggleClass('transform-active')
   $('.logo').toggleClass('transform-active');
+  $('.bgimg').toggleClass('transform-active');
 });
 
 
 $("#nav-icon3").click(function() {
-  $('.logo').toggleClass('transform-active');
+  $('.logo-container').toggleClass('transform-active');
   $('.about-button').toggleClass('transform-active');
   $('.background-fixed').toggleClass('transform-active');
 });

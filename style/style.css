@@ -5,7 +5,7 @@ body {
   background-color: #141417;
     /* background-color: rgb(11,11,11); */
 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Catamaran', sans-serif;
 }
 
 h1 {
@@ -34,14 +34,12 @@ h4 {
   color: rgb(31, 31, 31);
 }
 p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 0.8em;
+  font-weight: 200;
   line-height: 35px;
 }
 
 h6 {
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight:400;
 }
@@ -163,7 +161,7 @@ z-index: 1000;
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: #000000;
+  background: #141417;
 }
 
 #nav-icon3.open span:nth-child(3) {
@@ -171,14 +169,14 @@ z-index: 1000;
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background: #000000;
+  background: #141417;
 }
 
 #nav-icon3.open span:nth-child(4) {
   top: 18px;
   width: 0%;
   left: 50%;
-  background: #000000;
+  background: #141417;
 }
 
 
@@ -195,43 +193,33 @@ z-index: 1000;
   letter-spacing: 0.3em;
   z-index: 8;
   overflow: scroll;
-  background-color: #e8e8e8;
+  background-color: #E8E8E7;
 }
 .menu {
   position: absolute;
-  width: 100%;
-  top: 27.777%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  height: 44.446%;
-  -webkit-justify-content: space-between;
-  justify-content: center;
-  align-items: center;
-  right: 0;
-}
-.menu ul {
+  left: 50vw;
   text-align: center;
-  list-style: none;
-  padding-left: 0;
+  top: 50vh;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 }
-.menu ul li a{
-  font-family: 'moderat';
-  font-size: 27px;
-  color: rgb(31, 31, 31);
-  text-decoration: none;
-  line-height: 3em;
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: 5px;
+.menu-item{
+  cursor: pointer;
+  display: table;
+  letter-spacing: .5rem;
+  margin: 2em auto 2em auto;
+  position: relative;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.menu-item a {
+  color: #141417;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 
-
-
-/* .menu li{
+.menu li{
 display: inline-block;
 }
 .menu li:after {
@@ -245,8 +233,8 @@ transition: width .5s ease, background-color .5s ease;
 
 .menu li:hover:after {
 width: 100%;
-background: white;
-} */
+background: #141417;
+}
 
 
 /*//------home-page-------- */
@@ -302,7 +290,7 @@ right: 17.361%;
 .menu-top h2 {
   color: #e8e8e8;
   text-align: center;
-  font-size: 18px;
+  font-size: 3em;
   opacity: 0.5;
 }
 
@@ -394,6 +382,8 @@ right: 17.361%;
   text-align: center;
   padding-top: 20px;
   letter-spacing: 2px;
+  font-family: inherit;
+  text-transform: uppercase;
 }
 
 
@@ -503,6 +493,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: inline-table;
 
     }
 
@@ -525,14 +516,18 @@ position: relative;
     display: inline-block;
     position: relative;
     padding-left: 0.6em;
+    font-size: 2.1em;
   }
 
     #preloader .intro p{
-    font-size: 20px;
+    font-size: 1.15em;
     text-align: center;
     color: #141417;
     font-weight: 100;
     margin: 0;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-family: inherit;
   }
 
 
@@ -562,7 +557,12 @@ position: relative;
     overflow: hidden;
   }
 
-/* @media query (max-width: 600px) {
+@media (max-width: 600px) {
 .bgimg  {
+  right: 100px;
+  display: none;
+  background-image: url("../images/index-mercedes-benz.jpg");
   background-position: right;
-} */
+  height: 60vh;
+}
+}
