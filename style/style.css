@@ -217,9 +217,11 @@ z-index: 1000;
   color: #141417;
   font-size: 1.5em;
   text-transform: uppercase;
+  font-family: 'moderat';
+
 }
 
-.menu li{
+/* .menu li{
 display: inline-block;
 }
 .menu li:after {
@@ -234,7 +236,7 @@ transition: width .5s ease, background-color .5s ease;
 .menu li:hover:after {
 width: 100%;
 background: #141417;
-}
+} */
 
 
 /*//------home-page-------- */
