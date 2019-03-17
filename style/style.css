@@ -11,7 +11,7 @@ body {
 h1 {
   font-size: 30px;
   font-family: 'moderat';
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   color: rgb(31, 31, 31);
@@ -244,7 +244,6 @@ background: #141417;
 
 
 .background-fixed .line {
-/* transition: background-color .5s ease-in-out .1s; */
 background-color: white;
 opacity: 0.10;
 position: fixed;
