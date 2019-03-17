@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 30px;
   font-family: 'moderat';
   font-weight: 400;
   text-align: center;
@@ -102,7 +102,7 @@ z-index: 1000;
 
 
 /* Icon 1 */
-
+/*
 #nav-icon3 {
   width: 68px;
   height: 63px;
@@ -177,7 +177,7 @@ z-index: 1000;
   width: 0%;
   left: 50%;
   background: #141417;
-}
+} */
 
 
 
@@ -294,6 +294,7 @@ right: 17.361%;
   text-align: center;
   font-size: 3em;
   opacity: 0.5;
+  letter-spacing: 0px;
 }
 
 .logo-container {
@@ -304,21 +305,29 @@ right: 17.361%;
 }
 
 
-.menu-left {
+/* .menu-left {
   position: fixed;
   width: 17.361%;
   top: 27.777%;
   display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
-  display: -moz-box;      /* OLD: Firefox (buggy) */
-  display: -ms-flexbox;   /* MID: IE 10 */
-  display: -webkit-flex;
-  display: flex;
+  /* display: -moz-box;      /* OLD: Firefox (buggy) */
+  /* display: -ms-flexbox;   /* MID: IE 10 */
+  /* display: -webkit-flex;
+  /* display: flex;
   height: 44.446%;
   justify-content: center;
-  align-items: center;
-  z-index: 99;
-  }
+  align-items: center; */
+  /* z-index: 100;
+  } */
 
+.menu-left {
+  position: fixed ;
+  height: 100%;
+  width: 17.361%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
 .menu-right {
     position: fixed ;
     height: 100%;
@@ -328,9 +337,11 @@ right: 17.361%;
     z-index: 100;
   }
 
-.about-button {
-  z-index: 30;
-  position: relative;
+.about-button,
+.project-button,
+.back-button {
+  z-index: 100;
+  position: absolute;
   width: 100%;
   top: 27.777%;
   display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
@@ -347,26 +358,40 @@ right: 17.361%;
   overflow: hidden;
 }
 
-  .menu-right p {
+.back-button {
+visibility: hidden;
+}
+
+  .menu-right p,
+  .menu-left p {
     font-size: 15px;
     text-align:center;
   }
 
-  .menu-right  p a {
+  .menu-right  p a,
+  .menu-left  p {
     font-weight: 700;
     color: #e8e8e8;
     opacity: 0.5;
     text-transform: uppercase;
-    transform: rotate(90deg);
     letter-spacing: 0.2em;
   }
+
+  .about-button {
+    transform: rotate(90deg);
+    }
+
+
+
+
+
 
 
 .index-project-name {
     width: 100%;
     height: 190px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 0;
     z-index: 1;
     overflow: hidden;
@@ -377,12 +402,11 @@ right: 17.361%;
   letter-spacing: 10px;
   line-height: 0px;
   color: white;
-  font-size: 130%;
 }
 .index-project-name p{
   position:relative;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   letter-spacing: 2px;
   font-family: inherit;
   text-transform: uppercase;
@@ -543,7 +567,7 @@ position: relative;
 
 
 
-  .bgimg  {
+  .bgimg {
     height: 75vh;
     width: 70%;
     background-image: url("../images/index-mercedes-benz.jpg");
@@ -558,13 +582,3 @@ position: relative;
     margin: auto;
     overflow: hidden;
   }
-
-@media (max-width: 600px) {
-.bgimg  {
-  right: 100px;
-  display: none;
-  background-image: url("../images/index-mercedes-benz.jpg");
-  background-position: right;
-  height: 60vh;
-}
-}

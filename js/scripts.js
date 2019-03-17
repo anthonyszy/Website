@@ -62,11 +62,25 @@ $(document).ready(function(){
 
 
 
-$("#nav-icon3 ").click(function() {
+$(".projects").click(function() {
   $('.menu-container').toggleClass('transform-active');
   $('.menu-item').toggleClass('transform-active');
+  $('.about-button').toggleClass('transform-active');
+  $('.logo-container').toggleClass('transform-active');
+  $('.background-fixed').toggleClass('transform-active');
+  $('.back-button').toggleClass('transform-active');
+    $('.project-button').toggleClass('transform-active');
 });
 
+$(".back").click(function() {
+  $('.menu-container').removeClass('transform-active');
+  $('.menu-item').removeClass('transform-active');
+  $('.about-button').removeClass('transform-active');
+  $('.logo-container').removeClass('transform-active');
+  $('.background-fixed').removeClass('transform-active');
+  $('.back-button').removeClass('transform-active');
+    $('.project-button').removeClass('transform-active');
+});
 
 $(document).ready(function(){
   $('.preloader').toggleClass('transform-active');
@@ -74,12 +88,6 @@ $(document).ready(function(){
   $('.bgimg').toggleClass('transform-active');
 });
 
-
-$("#nav-icon3").click(function() {
-  $('.logo-container').toggleClass('transform-active');
-  $('.about-button').toggleClass('transform-active');
-  $('.background-fixed').toggleClass('transform-active');
-});
 
 
 // $(window).loaded(function() {

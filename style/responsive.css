@@ -1,40 +1,17 @@
 
+@media screen and (min-width: 100px) and (max-width: 900px){
+  .bgimg {
+  height: 70vh;
+  width: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
 
 
-  /* @media (max-width: 1675px){
-  .index-project-image img {
-    margin: 0 auto;
-    max-width: none;
-    max-height: 100vh;
-    float: right;
 }
 }
-
-
-  @media (min-width: 650px) and (max-width: 1280px){
-.index-project-image img {
-  right: -30%;
-  bottom: 249px;
-  }
-  }
-
-  @media (min-width: 0px) and (max-width: 600px) {
-  .index-project-image img {
-    right: -10%;
-    bottom: 339px;
-  }
-  }
-
-
-  @media (min-width: 1280px) and (max-width: 1675px) {
-  .index-project-image img {
-    right: -130%;
-  }
-  } */
-
-
-  /* @media (max-width: 600px) {
-    .bgimg {
-    background-position: -620px;
-  }
-} */
