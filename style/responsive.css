@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 10px) and (max-width: 900px){
+@media screen and (min-width: 100px) and (max-width: 1000px){
   .bgimg {
   height: 70vh;
   width: 70%;
@@ -11,5 +11,12 @@
   bottom: 0;
   margin: auto;
   overflow: hidden;
+}
+}
+
+
+@media screen and (min-width: 10px) and (max-width: 1000px){
+  .index-project-name h1{
+    font-size: 50px;
 }
 }
