@@ -425,11 +425,14 @@ opacity: 1;
 
 
 .background-fixed.transform-active .line {
+  opacity: 0.01;
   background-color: #141417;
-  -webkit-transition: all 400ms 0s ease-in-out;
-          transition: all 400ms 0s ease-in-out;
-
+  -webkit-transition: all 100ms 0s ease-in-out;
+          transition: all 100ms 0s ease-in-out;
 }
+
+
+
 
 
 
