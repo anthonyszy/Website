@@ -11,7 +11,7 @@ body {
 h1 {
   font-size: 30px;
   font-family: 'moderat';
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   text-transform: uppercase;
   color: rgb(31, 31, 31);
@@ -34,7 +34,7 @@ h4 {
   color: rgb(31, 31, 31);
 }
 p {
-  font-size: 0.8em;
+  font-size: 18pxe;
   font-weight: 200;
   line-height: 35px;
 }
@@ -199,7 +199,7 @@ z-index: 1000;
   position: absolute;
   left: 50vw;
   text-align: center;
-  top: 50vh;
+  top: 50%;
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
@@ -388,34 +388,44 @@ visibility: hidden;
 
 .index-project-name {
     width: 100%;
-    height: 190px;
+    display: block;
     position: absolute;
-    top: 60%;
+    top: 56%;
     left: 0;
     z-index: 1;
     overflow: hidden;
 
 }
 .index-project-name h1 {
-  position:relative;
-  letter-spacing: 10px;
-  line-height: 0px;
+  letter-spacing: 5px;
   color: white;
+  display: inline-block;
 }
+
+.index-project-name .padding-right{
+  padding-right: 0.3em;
+}
+
+.index-project-name .padding-left{
+  padding-left: 0.3em;
+}
+
+
 .index-project-name p{
   position:relative;
   text-align: center;
   padding-top: 10px;
   letter-spacing: 2px;
-  font-family: inherit;
   text-transform: uppercase;
 }
 
+.name-container {
+text-align: center;
+}
 
-
-
-
-
+.name-container.project-two h1 {
+color: #141417;
+}
 /*------about page----- */
 
 .about-container{
@@ -580,4 +590,8 @@ position: relative;
     left: 0;
     margin: auto;
     overflow: hidden;
+  }
+
+  .bgimg.project-two {
+    background-image: url("../images/index-dla-piper.jpg");
   }

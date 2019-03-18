@@ -15,8 +15,18 @@
 }
 
 
-@media screen and (min-width: 10px) and (max-width: 1000px){
+@media screen and (min-width: 10px) and (max-width: 1000px)
+and (orientation: portrait){
   .index-project-name h1{
-    font-size: 50px;
+    font-size: 128%;
+}
+.menu-right p a,
+.menu-left .project-button p,
+.menu-left .back-button p {
+  font-size: 160%;
+  text-align:center;
+}
+#preloader .preloader .intro {
+  font-size: 100%;
 }
 }
