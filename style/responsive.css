@@ -33,12 +33,16 @@ and (orientation: portrait){
 }
 .menu-top h2 {
   font-size: 7em;
+
 }
 }
 
 
 @media screen and (min-width: 10px) and (max-width: 1000px)
 and (orientation: landscape){
+  .menu-top {
+    top: 7%;
+  }
   .menu-item a {
     color: #141417;
     font-size: 15px;

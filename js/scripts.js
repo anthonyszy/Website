@@ -69,7 +69,7 @@ $(document).ready(function(){
 $(document).ready(function() {
     setTimeout(function(){
         $('body, main').addClass('loaded');
-    }, 2600);
+    }, 2700);
 });
 
 $(document).ready(function() {
