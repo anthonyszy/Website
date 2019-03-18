@@ -192,12 +192,12 @@ z-index: 1000;
   position: fixed;
   letter-spacing: 0.3em;
   z-index: 8;
-  overflow: scroll;
+  overflow: hidden;
   background-color: #E8E8E7;
 }
 .menu {
   position: absolute;
-  left: 50vw;
+  left: 50%;
   text-align: center;
   top: 50%;
   -webkit-transform: translate(-50%,-50%);
@@ -215,7 +215,7 @@ z-index: 1000;
 
 .menu-item a {
   color: #141417;
-  font-size: 1.5em;
+  font-size: 25px;
   text-transform: uppercase;
   font-family: 'moderat';
 
@@ -390,7 +390,7 @@ visibility: hidden;
     width: 100%;
     display: block;
     position: absolute;
-    top: 56%;
+    top: 53%;
     left: 0;
     z-index: 1;
     overflow: hidden;
@@ -577,15 +577,6 @@ position: relative;
     text-transform: uppercase;
     font-family: inherit;
   }
-
-
-
-
-
-
-
-
-
 
 
 

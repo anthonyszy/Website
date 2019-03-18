@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
 		sectionsColor: ['transparent', 'transparent', 'transparent'],
-		// anchors:['Mercedes-Benz', 'DLAPiper', 'Met-Police'],
+		anchors:['Mercedes-Benz', 'DLAPiper', 'Met-Police'],
 		menu: '.main-nav ul',
 
-            easingcss3: 'cubic-bezier(0.645, 0.045, 0.80  , 1)'
+            easingcss3: 'cubic-bezier(0.645, 0.075, 0.33, 1)'
 	});
 });
 
@@ -44,13 +44,13 @@ $(document).ready(function(){
   $('.preloader').toggleClass('transform-active');
   $('.logo').toggleClass('transform-active');
   $('.bgimg').toggleClass('transform-active');
-
+  $('.name-container').toggleClass('transform-active');
 });
 
-
-$('.section').scroll(function(){
-  $('.project-name').toggleClass('loaded');
-});
+//
+// $(document).ready(function(){
+//   $('.project-name').toggleClass('transform-active');
+// });
 
 
 // $(document).load(function() {
@@ -69,10 +69,21 @@ $('.section').scroll(function(){
 $(document).ready(function() {
     setTimeout(function(){
         $('body, main').addClass('loaded');
-    }, 2300);
+    }, 2600);
+});
+
+$(document).ready(function() {
+    setTimeout(function(){
+  $('.index-project-name').toggleClass('transform-active');
+}, 2600);
 });
 
 
+// $(document).ready(function() {
+//     setTimeout(function(){
+//         $('.section').toggleClass('active');
+//     }, 300);
+// });
 
 
 
