@@ -480,8 +480,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 1.30s 1.20s ease-in-out;
-                  transition: all 1.30s 1.20s ease-in-out;
+          -webkit-transition: all 1.30s 1.35s ease-in-out;
+                  transition: all 1.30s 1.35s ease-in-out;
 
 }
 
@@ -492,8 +492,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 1.35s 1.20s ease-in-out;
-                  transition: all 1.35s 1.20s ease-in-out;
+          -webkit-transition: all 1.35s 1.35s ease-in-out;
+                  transition: all 1.35s 1.35s ease-in-out;
 
 }
 
@@ -503,8 +503,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 1.40s 1.20s ease-in-out;
-                  transition: all 1.40s 1.20s ease-in-out;
+          -webkit-transition: all 1.40s 1.35s ease-in-out;
+                  transition: all 1.40s 1.35s ease-in-out;
 
 }
 
@@ -515,8 +515,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 1.45s 1.20s ease-in-out;
-                  transition: all 1.45s 1.20s ease-in-out;
+          -webkit-transition: all 1.45s 1.35s ease-in-out;
+                  transition: all 1.45s 1.35s ease-in-out;
 
 }
 
@@ -526,8 +526,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 1.55s 1.20s ease-in-out;
-                  transition: all 1.55s 1.20s ease-in-out;
+          -webkit-transition: all 1.55s 1.35s ease-in-out;
+                  transition: all 1.55s 1.35s ease-in-out;
 
 }
 
@@ -538,8 +538,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2s 1.20s ease-in-out;
-                  transition: all 2s 1.20s ease-in-out;
+          -webkit-transition: all 2s 1.35s ease-in-out;
+                  transition: all 2s 1.35s ease-in-out;
 }
 
 .name-container h1:nth-child(7){
@@ -548,8 +548,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2.05s 1.20s ease-in-out;
-                  transition: all 2.05s 1.20s ease-in-out;
+          -webkit-transition: all 2.05s 1.35s ease-in-out;
+                  transition: all 2.05s 1.35s ease-in-out;
 
 
 }
@@ -560,8 +560,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2.10s 1.20s ease-in-out;
-                  transition: all 2.10s 1.20s ease-in-out;
+          -webkit-transition: all 2.10s 1.35s ease-in-out;
+                  transition: all 2.10s 1.35s ease-in-out;
 
 
 }
@@ -574,8 +574,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2.15s 1.20s ease-in-out;
-                  transition: all 2.15s 1.20s ease-in-out;
+          -webkit-transition: all 2.15s 1.35s ease-in-out;
+                  transition: all 2.15s 1.35s ease-in-out;
 
 }
 
@@ -585,8 +585,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2.20s 1.20s ease-in-out;
-                  transition: all 2.20s 1.20s ease-in-out;
+          -webkit-transition: all 2.20s 1.35s ease-in-out;
+                  transition: all 2.20s 1.35s ease-in-out;
 
 }
 
@@ -596,8 +596,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2.25s 1.20s ease-in-out;
-                  transition: all 2.25s 1.20s ease-in-out;
+          -webkit-transition: all 2.25s 1.35s ease-in-out;
+                  transition: all 2.25s 1.35s ease-in-out;
 
 }
 .name-container h1:nth-child(12){
@@ -606,8 +606,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2.30s 1.20s ease-in-out;
-                  transition: all 2.30s 1.20s ease-in-out;
+          -webkit-transition: all 2.30s 1.35s ease-in-out;
+                  transition: all 2.30s 1.35s ease-in-out;
 
 }
 
@@ -617,8 +617,8 @@ opacity: 1;
       -ms-transform: translateY(600%);
           transform: translateY(600%);
 
-          -webkit-transition: all 2.35s 1.20s ease-in-out;
-                  transition: all 2.35s 1.20s ease-in-out;
+          -webkit-transition: all 2.35s 1.35s ease-in-out;
+                  transition: all 2.35s 1.35s ease-in-out;
 
 }
 
@@ -631,7 +631,7 @@ opacity: 1;
 
 /*----project-name-animation-----ON-scroll------*/
 
-.name-container h1:nth-child(1){
+/* .name-container h1:nth-child(1){
   opacity: 0;
   -webkit-transform: translateY(600%);
       -ms-transform: translateY(600%);
@@ -646,4 +646,4 @@ opacity: 1;
   transform: translateY(0px);
   opacity: 1;
 
-}
+} */
