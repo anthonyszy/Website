@@ -218,7 +218,17 @@ z-index: 1000;
   font-size: 25px;
   text-transform: uppercase;
   font-family: 'moderat';
+}
 
+
+.menu-item .eight{
+  cursor: pointer;
+  display: table;
+  letter-spacing: .5rem;
+  margin: 2em auto 0 auto;
+  position: relative;
+  white-space: nowrap;
+  opacity: 1;
 }
 
 /* .menu li{
