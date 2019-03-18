@@ -175,26 +175,36 @@ opacity: 1;
 
 
 /*----first------animation----*/
+
+.intro-line {
+  -ms-transform: scale(0, 0); /* IE 9 */
+  -webkit-transform: scale(0, 0); /* Safari */
+  transform: scale(0, 0);
+
+          -webkit-transition: all 800ms 400ms ease-in-out;
+                  transition: all 800ms 400ms ease-in-out;
+}
+
 .intro .name,
 .intro .title,{
   overflow: hidden;
 }
 
 .preloader .intro .name h2{
-  -webkit-transform: translateY(-700%);
-      -ms-transform: translateY(-700%);
-          transform: translateY(-700%);
+  -webkit-transform: translateY(700%);
+      -ms-transform: translateY(700%);
+          transform: translateY(700%);
 
-          -webkit-transition: all 800ms 300ms ease-in-out;
-                  transition: all 800ms 300ms ease-in-out;
+          -webkit-transition: all 1.20s 650ms ease-in-out;
+                  transition: all 1.20s 650ms ease-in-out;
 }
 .preloader .intro .title p {
-  -webkit-transform: translateY(-200%);
-      -ms-transform: translateY(-200%);
-          transform: translateY(-200%);
+  -webkit-transform: translateY(-150%);
+      -ms-transform: translateY(-150%);
+          transform: translateY(-150%);
 
-          -webkit-transition: all 1.20s 500ms ease-in-out;
-                  transition: all 1.20s 500ms ease-in-out;
+          -webkit-transition: all 1.20s 650ms ease-in-out;
+                  transition: all 1.20s 650ms ease-in-out;
 
 }
 .preloader.transform-active .name h2,
@@ -203,27 +213,39 @@ opacity: 1;
   opacity: 1;
 }
 
+.preloader.transform-active  .intro-line {
+    transform: scale(1, 1);
+}
 /*----2nd------animation----*/
 
 
 
+.loaded .preloader .intro-line {
+  -ms-transform: scale(0, 0); /* IE 9 */
+  -webkit-transform: scale(0, 0); /* Safari */
+  transform: scale(0, 0);
+
+          -webkit-transition: all 800ms 700ms ease-in-out;
+                  transition: all 800ms 700ms ease-in-out;
+}
+
 
 .loaded .preloader .intro .name h2 {
-  -webkit-transform: translateY(-700%);
-      -ms-transform: translateY(-700%);
-          transform: translateY(-700%);
+  -webkit-transform: translateY(700%);
+      -ms-transform: translateY(700%);
+          transform: translateY(700%);
 
-          -webkit-transition: all 700ms 800ms ease-in-out;
-                  transition: all 700ms 800ms ease-in-out;
+        -webkit-transition: all 1.20s 100ms ease-in-out;
+                transition: all 1.20s 100ms ease-in-out;
 }
 
 .loaded .preloader .intro .title p {
-  -webkit-transform: translateY(-200%);
-      -ms-transform: translateY(-200%);
-          transform: translateY(-200%);
+  -webkit-transform: translateY(-150%);
+      -ms-transform: translateY(-150%);
+          transform: translateY(-150%);
 
-          -webkit-transition: all 1s 300ms ease-in-out;
-                  transition: all 1s 300ms ease-in-out;
+          -webkit-transition: all 1.20s 100ms ease-in-out;
+                  transition: all 1.20s 100ms ease-in-out;
 
 
 }

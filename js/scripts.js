@@ -48,14 +48,38 @@ $(document).ready(function(){
 });
 
 
-// $(window).scroll(function(){
-//   $('.project-name').toggleClass('transform-active');
+$('.section').scroll(function(){
+  $('.project-name').toggleClass('loaded');
+});
+
+
+// $(document).load(function() {
+//       setTimeout(function(){
+//       $('body, main').removeClass('loaded');
+//   }, 5000);
 // });
 
 
+// $("main").css("overflow", "hidden");
+//   setTimeout(function(){
+//   }, 2300);
+// });
+// });
 
 $(document).ready(function() {
     setTimeout(function(){
         $('body, main').addClass('loaded');
     }, 2300);
 });
+
+
+
+
+
+// $('body main').css({
+//     'overflow': 'hidden',
+//     'height': '100%'
+//       setTimeout(function(){
+//       $('body, main').removeClass('.css');
+//   }, 5000);
+// });

@@ -529,7 +529,6 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-table;
-
     }
 
     .name {
@@ -537,6 +536,21 @@ position: relative;
       width: 100%;
       overflow: hidden;
     }
+
+    .intro-line {
+      background-color: #141417;
+      opacity: 0.5;
+      display: block;
+      z-index: 100;
+      width: 100%;
+      height: 1px;
+      left: 50%;
+      right: 50%;
+      top: 50%;
+      margin: auto;
+      top: 50%;
+    }
+
     .title {
       position: relative;
       width: 100%;
@@ -559,7 +573,7 @@ position: relative;
     text-align: center;
     color: #141417;
     font-weight: 100;
-    margin: 0;
+    /* margin: 0; */
     letter-spacing: 0.3em;
     text-transform: uppercase;
     font-family: inherit;
