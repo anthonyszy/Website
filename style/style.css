@@ -539,7 +539,6 @@ position: relative;
 
     .intro-line {
       background-color: #141417;
-      opacity: 0.5;
       display: block;
       z-index: 100;
       width: 100%;
@@ -608,4 +607,8 @@ position: relative;
 
   .bgimg.project-two {
     background-image: url("../images/index-dla-piper.jpg");
+  }
+
+  .bgimg.project-three {
+    background-image: url("../images/index-metpolice.jpg");
   }

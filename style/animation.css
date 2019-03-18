@@ -177,12 +177,15 @@ opacity: 1;
 /*----first------animation----*/
 
 .intro-line {
-  -ms-transform: scale(0, 0); /* IE 9 */
-  -webkit-transform: scale(0, 0); /* Safari */
-  transform: scale(0, 0);
+  -ms-transform: scale(0.0, 1.0); /* IE 9 */
+  -webkit-transform: scale(0.0, 1.0); /* Safari */
+  -moz-transform: scale(0.0, 1.0);
+  -o-transform: scale(0.0, 1.0);
+  transform: scale(0.0, 1.0);
+  opacity: 0;
 
-          -webkit-transition: all 800ms 400ms ease-in-out;
-                  transition: all 800ms 400ms ease-in-out;
+          -webkit-transition: all 800ms 600ms ease-in-out;
+                  transition: all 800ms 600ms ease-in-out;
 }
 
 .intro .name,
@@ -195,16 +198,16 @@ opacity: 1;
       -ms-transform: translateY(700%);
           transform: translateY(700%);
 
-          -webkit-transition: all 1.20s 650ms ease-in-out;
-                  transition: all 1.20s 650ms ease-in-out;
+          -webkit-transition: all 1.20s 850ms ease-in-out;
+                  transition: all 1.20s 850ms ease-in-out;
 }
 .preloader .intro .title p {
   -webkit-transform: translateY(-150%);
       -ms-transform: translateY(-150%);
           transform: translateY(-150%);
 
-          -webkit-transition: all 1.20s 650ms ease-in-out;
-                  transition: all 1.20s 650ms ease-in-out;
+          -webkit-transition: all 1.20s 850ms ease-in-out;
+                  transition: all 1.20s 850ms ease-in-out;
 
 }
 .preloader.transform-active .name h2,
@@ -214,19 +217,29 @@ opacity: 1;
 }
 
 .preloader.transform-active  .intro-line {
-    transform: scale(1, 1);
+  -ms-transform: scale(1.0, 1.0); /* IE 9 */
+  -webkit-transform: scale(1.0, 1.0); /* Safari */
+  -moz-transform: scale(1.0, 1.0);
+  -o-transform: scale(1.0, 1.0);
+  transform: scale(1.0, 1.0);
+  opacity: 1;
 }
+
+
 /*----2nd------animation----*/
 
 
 
 .loaded .preloader .intro-line {
-  -ms-transform: scale(0, 0); /* IE 9 */
-  -webkit-transform: scale(0, 0); /* Safari */
-  transform: scale(0, 0);
+  -ms-transform: scale(0.0, 1.0); /* IE 9 */
+  -webkit-transform: scale(0.0, 1.0); /* Safari */
+  -moz-transform: scale(0.0, 1.0);
+  -o-transform: scale(0.0, 1.0);
+  transform: scale(0.0, 1.0);
+  opacity: 0;
+          -webkit-transition: all 700ms 900ms ease-in-out;
+                  transition: all 700ms 900ms ease-in-out;
 
-          -webkit-transition: all 800ms 700ms ease-in-out;
-                  transition: all 800ms 700ms ease-in-out;
 }
 
 
@@ -235,8 +248,8 @@ opacity: 1;
       -ms-transform: translateY(700%);
           transform: translateY(700%);
 
-        -webkit-transition: all 1.20s 100ms ease-in-out;
-                transition: all 1.20s 100ms ease-in-out;
+        -webkit-transition: all 1.20s 200ms ease-in-out;
+                transition: all 1.20s 200ms ease-in-out;
 }
 
 .loaded .preloader .intro .title p {
@@ -244,8 +257,8 @@ opacity: 1;
       -ms-transform: translateY(-150%);
           transform: translateY(-150%);
 
-          -webkit-transition: all 1.20s 100ms ease-in-out;
-                  transition: all 1.20s 100ms ease-in-out;
+          -webkit-transition: all 1.20s 200ms ease-in-out;
+                  transition: all 1.20s 200ms ease-in-out;
 
 
 }
@@ -258,8 +271,8 @@ opacity: 1;
             -ms-transform: translateY(-100%);
                 transform: translateY(-100%);
 
-        -webkit-transition: all 1s 1.50s ease-in-out;
-                transition: all 1s 1.50s ease-in-out;
+        -webkit-transition: all 1s 1.40s ease-in-out;
+                transition: all 1s 1.40s ease-in-out;
 }
 
 
@@ -383,7 +396,7 @@ opacity: 1;
 
 
 
-/* .bgimg {
+.bgimg {
 
   -webkit-transition: all 2s 2.40s ease-in-out;
           transition: all 2s 2.40s ease-in-out;
@@ -393,7 +406,7 @@ opacity: 1;
 
  .loaded .bgimg{
   opacity: 1;
-} */
+}
 
 
 
