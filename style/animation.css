@@ -424,16 +424,18 @@ opacity: 1;
 }
 
 
-.background-fixed.transform-active .line {
-  opacity: 0.01;
-  background-color: #141417;
+/* .background-fixed.transform .line {
+  opacity: 1;
+  background-color: white;
   -webkit-transition: all 100ms 0s ease-in-out;
           transition: all 100ms 0s ease-in-out;
 }
 
-
-
-
+.background-fixed.transform-active .line {
+  opacity: 0
+  -webkit-transition: all 100ms 0s ease-in-out;
+          transition: all 100ms 0s ease-in-out;
+} */
 
 
 .back-button .back p{
@@ -458,8 +460,6 @@ opacity: 1;
                   transition: all 1s 200ms ease-in-out;
 
 }
-
-
 
 .project-button.transform-active .projects p{
   visibility: hidden;
