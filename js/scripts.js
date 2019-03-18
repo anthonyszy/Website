@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
     setTimeout(function(){
-        $('body, main').addClass('loaded');
+        $('#index').addClass('loaded');
     }, 2700);
 });
 
@@ -77,6 +77,15 @@ $(document).ready(function() {
   $('.index-project-name').toggleClass('transform-active');
 }, 2600);
 });
+
+
+$(document).ready(function() {
+    setTimeout(function(){
+        $('#about').addClass('loaded');
+    }, 10);
+});
+
+
 
 
 // $(document).ready(function() {

@@ -430,21 +430,11 @@ color: #141417;
 }
 /*------about page----- */
 
+
 .about-container{
 height: 100vh;
 width: 100%;
 position: relative;
-}
-
-
-.about-container .header-container {
-  top: 60%; left: 50%;
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 25%;
-
 }
 
 .about-background {
@@ -452,58 +442,79 @@ position: relative;
   transform: translate(-50%,-50%);
   margin: 0;
   padding: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
+}
+.about-container .footer-container {
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin: auto;
+  z-index: 100;
+  width: 100%;
+  height: 27.777%;
+  bottom: 0;
 }
 
 .about-info {
-  top: 40%; left: 50%;
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 25%;
+    height: 27.777%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 50%;
+    color: white;
 }
-.about-info em{
-  font-weight: 600;
-  font-style: normal;
-  font-size: 30px;
-  line-height: 40px;
+.about-info h1{
+  text-transform: none;
+  font-weight: 200;
+  font-size: 40px;
+  color: #e8e8e8;
+  padding-bottom: 20px;
+  letter-spacing: 1em;
 }
 
-.about-container h3 {
-  text-align: center;
-  font-size: 20vw;
-  color:rgb(31, 31, 31);
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color:rgb(31, 31, 31);
-  position: relative;
-  left: 0;
-  bottom: 0;
-}
 .about-container p {
+  font-weight: 100;
   position: relative;
-  left: 0;
-  bottom: 0;
+  text-align: center;
+  color: #e8e8e8;
 }
-.about-container .header-container h6,
-.about-container .header-container h6 a,
-.about-container .header-container p{
-  text-align: left;
-  position: relative;
-  left: 0;
-  bottom: 0;
+
+.about-container .footer-container h6,
+.about-container .footer-container h6 a,
+.about-container .footer-container p {
+  text-align: center;
   font-size: 25px;
   font-weight: 300;
-  color: rgb(31, 31, 31);
+  color: #e8e8e8;
 
 }
 
-.about-container .header-container p{
+.about-container .footer-container p{
   font-size: 15px;
 }
 
+.mail-links{
+    display: block;
+    position: absolute;
+    padding-bottom: 4%;
+}
 
+.footer-copy {
+    display: block;
+    position: absolute;
+    padding-top: 4%;
+}
   /*-----pre-loader----*/
 
   #preloader {

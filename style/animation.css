@@ -344,10 +344,28 @@ opacity: 1;
 }
 
 
-
-
+#about .background-fixed span.line.top,
+#about .background-fixed span.line.bottom,
+#about .background-fixed span.line.left,
+#about .background-fixed span.line.right{
+  -webkit-transition: all 2.20s 0s ease-in-out;
+          transition: all 2.20s 0s ease-in-out;
+}
 
 /*----LOGO-----*/
+
+
+#about .logo,
+#about .about p,
+#about .projects p{
+  -webkit-transition: all 1.40s 0s ease-in-out;
+          transition: all 1.40s 0s ease-in-out;
+}
+
+
+
+
+
 
 
 .logo{
