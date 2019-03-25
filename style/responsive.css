@@ -1,8 +1,8 @@
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
   .bgimg {
-  height: 70vh;
-  width: 70%;
+  height: 60vh;
+  width: 65%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -16,6 +16,18 @@
       background-position: center;
 }
 
+.project-header-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+}
+}
 
 @media screen and (min-width: 10px) and (max-width: 1000px)
 and (orientation: portrait){

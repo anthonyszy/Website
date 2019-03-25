@@ -616,3 +616,158 @@ position: relative;
   .bgimg.project-three {
     background-image: url("../images/index-metpolice.jpg");
   }
+
+
+
+/*------project-pages-----*/
+
+.project-name {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+
+}
+.project-name h4 {
+  letter-spacing: 20px;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+
+}
+.project-name .padding-right{
+  padding-right: 0.3em;
+}
+
+.project-name .padding-left{
+  padding-left: 0.3em;
+}
+.project-name p{
+  position:relative;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.project-name-container {
+text-align: center;
+}
+
+.scroll-direcion-container {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  z-index: 2;
+  color: #e8e8e8;
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+
+/*-images--*/
+
+
+.project-header-image {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.project-header-image.mercedes-benz {
+  /* background-image: url("../images/index-mercedes-benz.jpg"); */
+  background-image: url("../images/mercedes-benz-header.jpg");
+}
+
+/*--information-*/
+
+/*--info-1*/
+
+.project-information-main {
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  float: left;
+  display: block;
+  color: white;
+}
+
+.project-information-container{
+  position: relative;
+  margin: auto;
+
+
+}
+
+.project-paragraph-container {
+  color: white;
+  width: 60%;
+  position: absolute;
+  margin: auto;
+  padding-top: 10%;
+  right: 50%;
+  transform: translate(50%,50%);
+}
+
+.project-details-container {
+  color: white;
+      width: 60%;
+      position: absolute;
+      right: 50%;
+      transform: translate(50%,50%);
+      margin: auto;
+      height: auto;
+      display: table;
+}
+
+.column-one,
+.column-two,
+.column-three{
+display: table-cell;
+text-align: left;
+}
+
+.column-one em,
+.column-two em,
+.column-three em {
+  font-style:normal;
+  font-weight: 100;
+  font-size: 15px;
+  opacity: 0.5;
+
+}
+
+.column-one p,
+.column-two p,
+.column-three p {
+  font-weight: 900;
+  font-size: 18px;
+}
+/*
+.column-one {
+  background: green;
+}
+
+.column-two {
+  background: yellow;
+}
+
+.column-three {
+  background: blue;
+} */

@@ -81,9 +81,19 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     setTimeout(function(){
-        $('#about').addClass('loaded');
+        $('#about, #project').addClass('loaded');
     }, 10);
 });
+
+
+
+
+
+// $(".project-name-container").inViewport(function(px){
+//     if(px) $(this).addClass("triggeredCSS3") ;
+// });
+
+
 
 
 
