@@ -15,8 +15,8 @@ $(document).ready(function() {
 // });
 
 
-
-
+  //  $(document).animateScroll(); {
+  // });
 
 
 
@@ -88,6 +88,49 @@ $(document).ready(function() {
 
 
 
+// $(document).ready(function() {
+//
+//   $(window).scroll(function(event) {
+//
+//
+//       var y = $(this).scrollTop();
+//
+//         if (y >= 30) {
+//
+//           $('.project-image-one').addClass('animate');
+//
+//         }
+//
+//
+//         var y = $(this).scrollTop();
+//
+//           if (y >= 2000) {
+//
+//             $('.project-image-two').addClass('animate');
+//
+//           }
+//
+//           var y = $(this).scrollTop();
+//
+//             if (y >= 4000) {
+//
+//               $('.project-image-three').addClass('animate');
+//
+//             }
+//
+//       });
+//
+//
+//     });
+
+
+
+
+
+
+
+
+
 
 // $(".project-name-container").inViewport(function(px){
 //     if(px) $(this).addClass("triggeredCSS3") ;
@@ -113,3 +156,5 @@ $(document).ready(function() {
 //       $('body, main').removeClass('.css');
 //   }, 5000);
 // });
+
+//

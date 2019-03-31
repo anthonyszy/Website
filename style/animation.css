@@ -1029,3 +1029,33 @@ opacity: 0;
   transform: translateY(0px);
   opacity: 1;
 }
+
+
+/*--------Project-images--------*/
+
+
+/* .project-image-one img, .project-image-two img, .project-image-three img  {
+  -webkit-transform: translateY(300px);
+      -ms-transform: translateY(300px);
+          transform: translateY(300px);
+
+
+          opacity: 0;
+
+}
+
+
+.project-image-one.animate img,
+.project-image-two.animate img,
+.project-image-three.animate img {
+  -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
+
+          -webkit-transition: all 1.50s 800ms ease-in-out;
+                  transition: all 1.50s 800ms ease-in-out;
+
+
+opacity: 1;
+}
+ */
