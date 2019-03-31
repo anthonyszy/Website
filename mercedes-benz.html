@@ -225,36 +225,67 @@ Curabitur non auctor erat, at posuere odio. Cras eros ante, dignissim id gravida
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="js/jquery.fullpage.min.js"></script>
   <script src="js/scripts.js"></script>
-  <script src="js/animate-scroll.js"></script>
-  <script src="js/TweenMax.js"></script>
-  <script src="js/ScrollToPlugin.js"></script>
-  <script src="js/EaselPlugin.js"></script>
 
 
+   <script src="https://unpkg.com/scrollreveal"></script>
 
-  <!--scroll-magic-->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js"></script>
-  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/debug.addIndicators.js"></script> -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/debug.addIndicators.min.js"></script>
-  <script src="js/ScrollMagic.js"></script>
-    <script src="js/animation.gsap.js"></script>
-
-
-   <!-- <script>
-     $(document).animateScroll();
-   </script> -->
 
 <script>
+
+ScrollReveal().reveal('.project-header-image', { delay: 200 });
+ScrollReveal().reveal('.project-header-image', { duration: 3000 });
+
+ScrollReveal().reveal('.scroll-direcion', { delay: 400 });
+ScrollReveal().reveal('.scroll-direcion', { duration: 3000 });
+ScrollReveal().reveal('.scroll-direcion', { distance: '100px' });
+
+
+ScrollReveal().reveal('.column-one', { delay: 0 });
+ScrollReveal().reveal('.column-one', { duration: 1300 });
+ScrollReveal().reveal('.column-one', { distance: '100px' });
+
+ScrollReveal().reveal('.column-two', { delay: 100 });
+ScrollReveal().reveal('.column-two', { duration: 1300 });
+ScrollReveal().reveal('.column-two', { distance: '100px' });
+
+ScrollReveal().reveal('.column-three', { delay: 200 });
+ScrollReveal().reveal('.column-three', { duration: 1300 });
+ScrollReveal().reveal('.column-three', { distance: '100px' });
+
+ScrollReveal().reveal('.project-paragraph-container', { delay: 300 });
+ScrollReveal().reveal('.project-paragraph-container', { duration: 1300 });
+ScrollReveal().reveal('.project-paragraph-container', { distance: '100px' });
+
+ScrollReveal().reveal('.btn-cont', { delay: 400 });
+ScrollReveal().reveal('.btn-cont', { duration: 1300 });
+ScrollReveal().reveal('.btn-cont', { distance: '100px' });
+
+
+
+ScrollReveal().reveal('.fade-in', { delay: 0 });
+ScrollReveal().reveal('.fade-in', { duration: 3000 });
+ScrollReveal().reveal('.fade-in', { distance: '300px' });
+
+
+</script>
+
+
+
+
+
+
+
+<!-- <script>
 
 
    // init controller
    var controller = new ScrollMagic.Controller();
 
    // loop through all elements
-   $('.fade-in img').each(function() {
+   $('.fade-in').each(function() {
 
      // build a tween
-     var tween = TweenMax.from($(this), 1.10, {autoAlpha: 0, scale: 1, y: '+=200', ease:Linear.easeInCubic});
+     var tween = TweenMax.from($(this), 1.10, {autoAlpha: 0, scale: 1, y: '+=100', ease:Linear.easeInCubic});
 
      // build a scene
      var scene = new ScrollMagic.Scene({
@@ -265,7 +296,7 @@ Curabitur non auctor erat, at posuere odio. Cras eros ante, dignissim id gravida
 
    });
 
-</script>
+</script> -->
 
 
   </body>

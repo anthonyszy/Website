@@ -116,29 +116,28 @@
   <script src="js/scripts.js"></script>
   <script src="barba.min.js" type="text/javascript"></script>
 
-  <!-- hamburger menu -->
 
-  <script>
-    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+  <script src="https://unpkg.com/scrollreveal"></script>
+<script>
 
-    var hamburgers = document.querySelectorAll(".hamburger");
-    if (hamburgers.length > 0) {
-      forEach(hamburgers, function(hamburger) {
-        hamburger.addEventListener("click", function() {
-          this.classList.toggle("is-active");
-        }, false);
-      });
-    }
-  </script>
 
-  <!-- ScrollReveal -->
+ScrollReveal().reveal('.about-info h1', { delay: 0 });
+ScrollReveal().reveal('.about-info h1', { duration: 2000 });
+ScrollReveal().reveal('.about-info h1', { distance: '100px' });
 
-  <script>
-  ScrollReveal().reveal('.intro-container' , { delay: 600 })
-  ScrollReveal().reveal('.background-fixed img', { delay: 800 })
-  ScrollReveal().reveal('.header-container', { delay: 600 })
-  </script>
+ScrollReveal().reveal('.about-info p', { delay: 100 });
+ScrollReveal().reveal('.about-info p', { duration: 2000 });
+ScrollReveal().reveal('.about-info p', { distance: '100px' });
 
+ScrollReveal().reveal('.footer-container h6', { delay: 200 });
+ScrollReveal().reveal('.footer-container h6', { duration: 2000 });
+ScrollReveal().reveal('.footer-container h6', { distance: '100px' });
+
+ScrollReveal().reveal('.footer-container p', { delay: 300 });
+ScrollReveal().reveal('.footer-container p', { duration: 2000 });
+ScrollReveal().reveal('.footer-container p', { distance: '100px' });
+
+</script>
 
   </body>
 </html>
