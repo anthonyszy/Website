@@ -789,7 +789,8 @@ text-align: left;
 
 .project-image-one img,
 .project-image-two img,
-.project-image-three img {
+.project-image-three img,
+.project-image-four video{
   width: 100%;
   position: absolute;
 }
@@ -821,5 +822,15 @@ text-align: left;
   display: block;
   margin: auto;
   margin-top: 10%;
+  margin-bottom: 60%;
+  z-index: 2;
+}
+
+.project-image-four {
+  width: 70%;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 60%;
   z-index: 2;
 }
