@@ -772,66 +772,118 @@ text-align: left;
 .project-images {
 
   width: 100%;
-  height: 100vh;
   position: relative;
   float: left;
   display: block;
 }
 
-.project-image-one {
-  width: 70%;
-  position: relative;
+.project-image-one,
+.project-image-two,
+.project-image-three,
+.project-image-four,
+.project-image-five {
+  width: 100%;
   display: block;
   margin: auto;
-  margin-top:10%;
-  z-index: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8% 0;
 }
+
+
+
+.project-image-three,
+.project-image-six{
+  background: #0b0b0bb0;
+  z-index: 3;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
 
 .project-image-one img,
 .project-image-two img,
 .project-image-three img,
-.project-image-four video{
-  width: 100%;
-  position: absolute;
-}
-
-.project-image-two img {
-  width: 70%;
+.project-image-four img,
+.project-image-five video,
+.project-image-six img{
+  width: 65%;
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.project-image-three img,
+.project-image-six img {
+  width: 70%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 3;
+}
 
-.project-image-two{
+
+
+.project-image-two.mercedes-benz-images img{
+  width: 55%;
+}
+
+
+.project-copy-seperator {
+  background: #0b0b0bb0;
   width: 100%;
   position: relative;
   display: block;
-  margin: auto;
-  margin-top: 60%;
-  background: #0b0b0bb0;
-  overflow: hidden;
-  z-index: 1;
-  padding-top: 3%;
+  color: white;
+  z-index: 5;
+
+  padding: 8% 0;
 }
 
-.project-image-three{
-  width: 70%;
+.project-copy-seperator .project-paragraph-container{
+  width: 60%;
   position: relative;
-  display: block;
   margin: auto;
-  margin-top: 10%;
-  margin-bottom: 60%;
-  z-index: 2;
 }
 
-.project-image-four {
-  width: 70%;
-  position: relative;
-  display: block;
-  margin: auto;
-  margin-top: 60%;
-  margin-bottom: 60%;
-  z-index: 2;
+
+
+
+/*------project-footer-----*/
+
+
+
+.project-footer {
+    float: left;
+
+    width: 100%;
+    background: black;
+}
+
+
+ .footer-buttons {
+  margin: 0, 10;
+}
+
+.footer-buttons p{
+font-weight: 700;
+color: #e8e8e8;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+}
+
+.footer-buttons.previously{
+  float: left;
+  text-align: left;
+  margin: 1% 20%;
+}
+
+.footer-buttons.next{
+  float: right;
+  text-align: right;
+  margin: 1% 20%;
 }
