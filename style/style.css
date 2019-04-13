@@ -730,6 +730,11 @@ text-align: center;
   background-image: url("../images/mercedes-benz-header.jpg");
 }
 
+.project-header-image.dlapiper {
+  /* background-image: url("../images/index-mercedes-benz.jpg"); */
+  background-image: url("../images/dlapiper-header.jpg");
+}
+
 /*--information-*/
 
 /*--info-1*/
@@ -884,6 +889,26 @@ text-align: left;
   position: relative;
   margin: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
