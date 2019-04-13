@@ -329,7 +329,7 @@ right: 17.361%;
   left: 0;
   z-index: 100;
 }
-.menu-right, .project-right {
+.menu-right {
     position: fixed ;
     height: 100%;
     width: 17.361%;
@@ -385,14 +385,41 @@ visibility: hidden;
 
 
 
-.project-right {
+.project-left {
+  position: fixed;
+  height: 17.361%;
+  width: 17.361%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  }
 
+  .project-right {
+  position: fixed;
+  height: 17.361%;
+  width: 17.361%;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
 }
 
-.arrow-right {
-transform: rotate(0deg);
-opacity: 0.5;
+.arrow-left, .arrow-right {
+  transform: rotate(0deg);
+  opacity: 0.5;
+  width: 30%;
+  display: block;
+  margin: auto;
+  position: relative;
+  height: 100%;
 }
+.arrow-left {
+    transform: rotate(180deg);
+}
+
+
+
+
+
 
 
 

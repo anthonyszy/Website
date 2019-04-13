@@ -67,6 +67,18 @@
 
 
 
+  <div class="project-left">
+    <div class="project-arrow transform">
+      <div class="overflow" style="overflow:hidden; padding:0; margin:0;">
+
+
+<div class="arrow-left">
+<img src="./images/project-arrow.svg" alt="">
+</div>
+</div>
+  </div>
+</div>
+
     <div class="project-right">
       <div class="project-arrow transform">
         <div class="overflow" style="overflow:hidden; padding:0; margin:0;">
@@ -259,14 +271,12 @@ The website redesign needed to speak for all of the different divisions, showcas
     <video autoplay loop muted muted playsinline>
       <source src="./images/mercedes-benz-menu-loop.mp4" type="video/mp4">
 
-        <div class="project-image-six fade-in mercedes-benz-images">
-          <img src="./images/mercedes-benz-desktop-two.png" alt="">
-        </div>
-
-
-
 
     </video>
+  </div>
+
+  <div class="project-image-six fade-in mercedes-benz-images">
+    <img src="./images/mercedes-benz-desktop-two.png" alt="">
   </div>
 
 </div>
@@ -274,7 +284,7 @@ The website redesign needed to speak for all of the different divisions, showcas
 
 
 
-<footer>
+<!-- <footer>
 
   <div class="project-footer">
 
@@ -288,16 +298,17 @@ The website redesign needed to speak for all of the different divisions, showcas
 
   </div>
 
-</footer>
+</footer> -->
 
   </main>
 
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="js/jquery.fullpage.min.js"></script>
   <script src="js/scripts.js"></script>
+   <script src="https://unpkg.com/scrollreveal"></script>
 
 
-   <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
 
 
 <script>
@@ -343,34 +354,6 @@ ScrollReveal().reveal('.fade-in video', { distance: '300px' });
 
 </script>
 
-
-
-
-
-
-
-<!-- <script>
-
-
-   // init controller
-   var controller = new ScrollMagic.Controller();
-
-   // loop through all elements
-   $('.fade-in').each(function() {
-
-     // build a tween
-     var tween = TweenMax.from($(this), 1.10, {autoAlpha: 0, scale: 1, y: '+=100', ease:Linear.easeInCubic});
-
-     // build a scene
-     var scene = new ScrollMagic.Scene({
-       triggerElement: this
-     })
-     .setTween(tween) // trigger a TweenMax.to tween
-     .addTo(controller);
-
-   });
-
-</script> -->
 
 
   </body>
