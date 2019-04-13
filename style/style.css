@@ -329,7 +329,7 @@ right: 17.361%;
   left: 0;
   z-index: 100;
 }
-.menu-right {
+.menu-right, .project-right {
     position: fixed ;
     height: 100%;
     width: 17.361%;
@@ -340,7 +340,8 @@ right: 17.361%;
 
 .about-button,
 .project-button,
-.back-button {
+.back-button,
+.arrow-right{
   z-index: 100;
   position: absolute;
   width: 100%;
@@ -384,7 +385,14 @@ visibility: hidden;
 
 
 
+.project-right {
 
+}
+
+.arrow-right {
+transform: rotate(0deg);
+opacity: 0.5;
+}
 
 
 
