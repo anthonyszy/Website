@@ -392,6 +392,8 @@ visibility: hidden;
   bottom: 0;
   left: 0;
   z-index: 100;
+  overflow: hidden;
+
   }
 
   .project-right {
@@ -401,6 +403,7 @@ visibility: hidden;
   bottom: 0;
   right: 0;
   z-index: 100;
+  overflow: hidden;
 }
 
 .arrow-left, .arrow-right {
@@ -413,7 +416,7 @@ visibility: hidden;
   height: 100%;
 }
 .arrow-left {
-    transform: rotate(180deg);
+transform: rotate(0deg);
 }
 
 
@@ -716,6 +719,9 @@ text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
   position: relative;
   right: 0;
   top: 0;
@@ -734,6 +740,14 @@ text-align: center;
   /* background-image: url("../images/index-mercedes-benz.jpg"); */
   background-image: url("../images/dlapiper-header.jpg");
 }
+
+
+
+.project-header-image.metpolice {
+  /* background-image: url("../images/index-mercedes-benz.jpg"); */
+  background-image: url("../images/metpolice-header.jpg");
+}
+
 
 /*--information-*/
 
@@ -830,6 +844,7 @@ text-align: left;
   margin-left: auto;
   margin-right: auto;
   padding: 8% 0;
+  overflow: hidden;
 }
 
 
@@ -879,7 +894,7 @@ text-align: left;
   position: relative;
   display: block;
   color: white;
-  z-index: 5;
+  z-index: 8;
   padding: 8% 0;
 }
 
@@ -898,28 +913,38 @@ text-align: left;
 
 
 
-.project-image-three.fade-in.dlapiper-images img{
-  width: 65%;
-}
+/* .project-image-three.fade-in.dlapiper-images img{
+  width: 40%;
+
+} */
 
 
 .project-image-four.fade-in.dlapiper-images img{
-  width: 40%;
+    width: 65%;
 }
 
 
 
 
 
+.project-image-three.fade-in.dlapiper-images,
+.project-image-six.fade-in.dlapiper-images{
+  background: none;
+  z-index: 3;
+  overflow: hidden;
+  padding-bottom: 0;
+}
 
 
 
 
 
+/*-----Metpolice-----*/
 
-
-
-
+.project-image-three.fade-in.metpolice-images,
+.project-image-six.fade-in.metpolice-images{
+  background: none;
+}
 
 
 

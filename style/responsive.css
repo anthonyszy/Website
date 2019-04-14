@@ -68,3 +68,31 @@ and (orientation: landscape){
 
   }
 }
+
+
+
+/* @media not all and (min-resolution:.001dpcm) {
+    @media {
+        .safari10 .project-header-image{
+          background-attachment: scroll;
+        }
+    }
+} */
+
+
+
+@media screen and (min-width: 100px) and (max-width: 1000px){
+  p, em{
+  font-size: 120%;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 1000px){
+.project-header-image.metpolice  {
+  background-position: center;
+}
+}
