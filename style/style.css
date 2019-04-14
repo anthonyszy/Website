@@ -880,7 +880,6 @@ text-align: left;
   display: block;
   color: white;
   z-index: 5;
-
   padding: 8% 0;
 }
 
@@ -890,9 +889,23 @@ text-align: left;
   margin: auto;
 }
 
+.project-paragraph-container h4 {
+  color: white;
+}
+
+
+/*-----DLA-Piper-----*/
 
 
 
+.project-image-three.fade-in.dlapiper-images img{
+  width: 65%;
+}
+
+
+.project-image-four.fade-in.dlapiper-images img{
+  width: 40%;
+}
 
 
 
@@ -917,7 +930,7 @@ text-align: left;
 
 
 
-.project-footer {
+/* .project-footer {
     float: left;
 
     width: 100%;
@@ -946,4 +959,4 @@ letter-spacing: 0.2em;
   float: right;
   text-align: right;
   margin: 1% 20%;
-}
+} */
