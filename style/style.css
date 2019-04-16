@@ -470,7 +470,6 @@ color: #141417;
 
 
 .about-container{
-height: 100vh;
 width: 100%;
 position: relative;
 }
@@ -499,25 +498,21 @@ position: relative;
   width: 100%;
   height: 27.777%;
   bottom: 0;
+  z-index: 2;
 }
 
 .about-info {
-    height: 27.777%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    width: 50%;
-    color: white;
+  color: white;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
 }
 .about-info h1{
   text-transform: none;
   font-weight: 200;
   font-size: 40px;
   color: #e8e8e8;
-  padding-bottom: 20px;
   letter-spacing: 1em;
 }
 
@@ -543,16 +538,60 @@ position: relative;
 }
 
 .mail-links{
-    display: block;
+    display: inherit;
     position: absolute;
-    padding-bottom: 4%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 5%;
 }
+
+
+.mail-links h6{
+  text-align: center;
+  padding:5%;
+}
+
+.mail-links h6 a:after {
+content: '';
+display: block;
+height: 1px;
+width: 0px;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+
+.mail-links h6 a:hover:after {
+width: 100%;
+background: white;
+}
+
 
 .footer-copy {
     display: block;
     position: absolute;
-    padding-top: 4%;
+    margin-top: 4%;
+    overflow: hidden;
+    opacity: 0.3;
 }
+
+.about-hello {
+  margin-bottom: 2%;
+  overflow: hidden;
+  padding: 1% 0;
+}
+
+.about-hello p{
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: 1em;
+  padding-left: 1em;
+  color: white;
+  position: relative;
+  margin: auto;
+  opacity: 0.1;
+}
+
+
   /*-----pre-loader----*/
 
   #preloader {
