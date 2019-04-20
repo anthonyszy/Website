@@ -76,6 +76,9 @@ and (orientation: landscape){
   width: 60%;
   position: unset;
   margin: auto;
+  /* background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, black)); */
+
+
 }
 .about-hello h6{
   font-size: 1.5em;
@@ -87,15 +90,31 @@ width: 100%;
 height: auto;
 bottom:auto;
 
+
 }
 .about-container{
   overflow: scroll;
   width: 100%;
   position: relative;
   bottom: 0;
-  padding: 30% 0 10% 0;
+  padding: 40% 0 15% 0;
   height: 100%;
-  /* background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, black)); */
+}
+.scroll-gradient{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  height: 20rem;
+  bottom: 0;
+  background-image: linear-gradient(transparent, #141417);
+  z-index: 10;
+  pointer-events: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: flex-end;
 }
 }
 
