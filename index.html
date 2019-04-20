@@ -12,7 +12,8 @@
       <link rel="stylesheet" href="style/responsive.css" >
   </head>
 
-  <body id="index">
+  <body id="index" class=".stop-scrolling" style="  height: 100%;
+    overflow: hidden;">
 
 
     <div id="preloader">
@@ -41,7 +42,7 @@
       <div class="menu-top">
         <div class="logo-container transform">
             <div class="overflow" style="overflow:hidden; padding:0; margin:0;">
-        <a href="index.html"><div class="logo transform"><h2>A</h2></div></a>
+        <a href="index.html"><div class="logo transform"><h2 class="notranslate">A</h2></div></a>
         </div>
         </div>
     </div>
@@ -75,7 +76,7 @@
       <div class="overflow" style="overflow:hidden; padding:0; margin:0;">
 
 <div class="back"><a href="#">
-  <span><p>close</p></span></a>
+  <span><p  class="notranslate">close</p></span></a>
 </div>
 
 
@@ -203,21 +204,19 @@
 <script src="js/jquery.fullpage.min.js"></script>
 <script src="js/scripts.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+
 
 
 
 <!-- ScrollReveal -->
 
 <script>
-  ScrollReveal().reveal('.intro-container' , { delay: 600 })
-  ScrollReveal().reveal('.background-fixed img', { delay: 800 })
-  ScrollReveal().reveal('.header-container', { delay: 600 })
 
-  // ScrollReveal().reveal('.menu' , { delay: 100 })
+
+  // ScrollReveal().reveal('.logo', { delay: 100 });
+  // ScrollReveal().reveal('.logo', { duration: 2000 });
+  // ScrollReveal().reveal('.logo', { distance: '300px' });
+
 
 </script>
 
