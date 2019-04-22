@@ -93,16 +93,15 @@ bottom:auto;
 
 }
 .about-container{
-  overflow: scroll;
-  overflow-scrolling: touch;
-  webkit-touch-overflow:scrolll;
+  overflow-x: hidden;
+  overflow-y: scroll; -webkit-overflow-scrolling: touch;
   width: 100%;
   position: relative;
   bottom: 0;
   padding: 40% 0 15% 0;
   height: 100%;
 }
-/* .scroll-gradient{
+.scroll-gradient{
   pointer-events: none;
   position: fixed;
   width: 100%;
@@ -118,7 +117,7 @@ bottom:auto;
   flex-direction: column;
   -ms-flex-pack: center;
   justify-content: flex-end;
-} */
+}
 }
 
 
