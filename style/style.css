@@ -498,12 +498,7 @@ position: relative;
 }
 
 .about-background {
-  top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  width: 100%;
+
 }
 .footer-container {
   -webkit-flex-flow: row wrap;
@@ -529,6 +524,11 @@ position: relative;
   position: relative;
   margin: auto;
   overflow: hidden;
+  top: 55%; left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  position: fixed;
 }
 .about-info h1{
   text-transform: none;
@@ -562,15 +562,12 @@ position: relative;
 .mail-links{
     display: inherit;
     position: absolute;
-    overflow: hidden;
     margin: auto;
-    padding: 0 5%;
 }
 
 
 .mail-links h6{
   text-align: center;
-  padding:5%;
 }
 
 .mail-links h6 a:after {
@@ -600,10 +597,14 @@ background: white;
   overflow: hidden;
   padding: 0.1% 0;
   text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: fixed;
 }
 
 .about-hello h6{
-  font-size: 3em;
+  font-size: 2.7em;
   font-weight: 900;
   padding: 0.5em;
   color: white;
@@ -1016,6 +1017,36 @@ text-align: left;
 
 
 
+/*-----boots-----*/
+
+.project-image-two.fade-in.boot-images img,
+.project-image-three.fade-down.boot-images img{
+  width: 60%;
+  position: relative;
+  display: block;
+}
+
+.project-image-two.fade-in.boot-images img{
+  right: 0;
+  float: right;
+  margin-right: 5%;
+}
+
+.project-image-three.fade-down.boot-images img{
+  left: 0;
+  float: left;
+  margin-left: 5%;
+}
+
+.project-image-two.fade-in.boot-images,
+.project-image-three.fade-down.boot-images{
+  width: 50%;
+  position: relative;
+  display: inline-block ;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
 
 
 

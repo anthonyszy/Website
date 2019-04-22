@@ -53,7 +53,7 @@ and (orientation: portrait){
 
 }
 .about-hello h6{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .about-info {
   width: 60%;
@@ -80,15 +80,35 @@ and (orientation: landscape){
   width: 60%;
   position: unset;
   margin: auto;
-  /* background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, black)); */
+
+  color: white;
+  width: 64%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  top: 55%; left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+.about-hello{
+  overflow: hidden;
+  padding: 10% 0;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: relative;
 }
 .about-hello h6{
   font-size: 1.5em;
-  opacity: 1;
+  position: relative;
 }
 .footer-container {
 position: inherit;
-margin: 10% 0;
+margin: 1% 0;
 width: 100%;
 height: auto;
 bottom:auto;
@@ -104,12 +124,13 @@ bottom:auto;
   max-height: 100%;
   z-index: 101;
 }
-/* .scroll-gradient{
+
+.scroll-gradient{
   pointer-events: none;
   position: fixed;
   width: 100%;
   left: 0;
-  height: 10%;
+  height: 10em;
   bottom: 0;
   background-image: linear-gradient(transparent, #141417);
   z-index: 10;
@@ -120,7 +141,8 @@ bottom:auto;
   flex-direction: column;
   -ms-flex-pack: center;
   justify-content: flex-end;
-} */
+  z-index: 102;
+}
 }
 
 
