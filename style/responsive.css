@@ -93,7 +93,7 @@ bottom:auto;
 
 }
 .about-container{
-  overflow: scroll;
+  overflow-x: scroll;
   width: 100%;
   position: relative;
   bottom: 0;
@@ -101,6 +101,7 @@ bottom:auto;
   height: 100%;
 }
 .scroll-gradient{
+  pointer-events: none;
   position: fixed;
   width: 100%;
   left: 0;

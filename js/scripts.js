@@ -84,12 +84,12 @@ $(document).ready(function() {
     }, 10);
 });
 
-$('body').addClass('stop-scrolling')
-
-
-$(document).ready(function() {
-$('body').removeClass('stop-scrolling')
-});
+// $('body').addClass('stop-scrolling')
+//
+//
+// $(document).ready(function() {
+// $('body').removeClass('stop-scrolling')
+// });
 
 
 
