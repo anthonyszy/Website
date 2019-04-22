@@ -27,6 +27,10 @@
   margin: auto;
   overflow: hidden;
 }
+
+.project-header-image.boots {
+  background-position: left;
+}
 .column-one,
 .column-two,
 .column-three{
@@ -98,7 +102,7 @@ and (orientation: landscape){
   position: relative;
   left: 0;
   overflow: hidden;
-  padding: 0 0 10% 0;
+  padding: 0 0 15% 0;
 }
 .about-hello h6{
   font-size: 2em;
@@ -121,7 +125,6 @@ bottom:auto;
   max-height: 100%;
   z-index: 101;
 }
-
 .scroll-gradient{
   pointer-events: none;
   position: fixed;
@@ -155,14 +158,14 @@ bottom:auto;
 @media screen and (min-width: 100px) and (max-width: 1000px)
 and (orientation: landscape){
 .about-container{
-  padding: 25% 0 20% 0;
+  padding: 25% 0 30% 0;
 }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1100px)
 and (orientation: landscape){
 .about-container{
-  padding: 35% 0 20% 0;
+  padding: 35% 0 30% 0;
 }
 }
 
