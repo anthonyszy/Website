@@ -28,9 +28,6 @@
   overflow: hidden;
 }
 
-.project-header-image.boots {
-  background-position: left;
-}
 .column-one,
 .column-two,
 .column-three{
@@ -64,6 +61,9 @@ and (orientation: portrait){
 }
 .arrow-right, .arrow-left{
   width: 50%;
+}
+p, em{
+font-size: 190%;
 }
 }
 
@@ -181,10 +181,16 @@ and (orientation: landscape){
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
   p, em{
-  font-size: 130%;
+  font-size: 140%;
 }
 .loaded .arrow-right, .loaded .arrow-left{
   opacity: 1;
+}
+.column-one p, .column-two p, .column-three p {
+font-size: 150%;
+}
+.column-one em, .column-two em, .column-three em {
+font-size: 100%;
 }
 }
 

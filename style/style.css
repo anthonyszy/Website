@@ -827,6 +827,8 @@ text-align: center;
 .project-header-image.boots {
   /* background-image: url("../images/index-mercedes-benz.jpg"); */
   background-image: url("../images/boots-header.jpg");
+  background-position: left;
+
 }
 
 /*--information-*/
