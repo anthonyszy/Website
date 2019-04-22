@@ -95,6 +95,7 @@ bottom:auto;
 .about-container{
   overflow: scroll;
   overflow-scrolling: touch;
+  webkit-touch-overflow:scrolll;
   width: 100%;
   position: relative;
   bottom: 0;
