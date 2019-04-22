@@ -58,6 +58,9 @@ and (orientation: portrait){
 .about-info {
   width: 60%;
 }
+.arrow-right, .arrow-left{
+  width: 50%;
+}
 }
 
 
@@ -66,6 +69,7 @@ and (orientation: landscape){
   .menu-top {
     top: 7%;
   }
+
   .menu-item a {
     color: #141417;
     font-size: 90%;
@@ -77,8 +81,6 @@ and (orientation: landscape){
   position: unset;
   margin: auto;
   /* background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, black)); */
-
-
 }
 .about-hello h6{
   font-size: 1.5em;
@@ -91,17 +93,16 @@ width: 100%;
 height: auto;
 bottom:auto;
 
-
 }
 .about-container{
   overflow-x: hidden;
-  overflow-y: scroll; -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
   width: 100%;
   position: relative;
   bottom: 0;
   padding: 40% 0 15% 0;
   max-height: 100%;
-  white-space: nowrap;
+  z-index: 101;
 }
 /* .scroll-gradient{
   pointer-events: none;
@@ -138,6 +139,9 @@ bottom:auto;
 @media screen and (min-width: 100px) and (max-width: 1000px){
   p, em{
   font-size: 130%;
+}
+.loaded .arrow-right, .loaded .arrow-left{
+  opacity: 1;
 }
 }
 

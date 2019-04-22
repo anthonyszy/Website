@@ -814,6 +814,10 @@ text-align: center;
   background-image: url("../images/metpolice-header.jpg");
 }
 
+.project-header-image.boots {
+  /* background-image: url("../images/index-mercedes-benz.jpg"); */
+  background-image: url("../images/boots-header.jpg");
+}
 
 /*--information-*/
 
@@ -925,6 +929,7 @@ text-align: left;
 .project-image-three img,
 .project-image-four img,
 .project-image-five img,
+.project-image-five video,
 .project-image-six video,
 .project-image-seven img{
   width: 65%;
