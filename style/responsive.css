@@ -100,7 +100,7 @@ bottom:auto;
   padding: 40% 0 15% 0;
   height: 100%;
 }
-.scroll-gradient{
+/* .scroll-gradient{
   pointer-events: none;
   position: fixed;
   width: 100%;
@@ -116,7 +116,7 @@ bottom:auto;
   flex-direction: column;
   -ms-flex-pack: center;
   justify-content: flex-end;
-}
+} */
 }
 
 

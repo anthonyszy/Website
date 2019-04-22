@@ -917,10 +917,6 @@ text-align: left;
 
 .project-image-three,
 .project-image-six{
-  background: #0b0b0bb0;
-  z-index: 3;
-  overflow: hidden;
-  padding-bottom: 0;
 }
 
 
@@ -928,8 +924,9 @@ text-align: left;
 .project-image-two img,
 .project-image-three img,
 .project-image-four img,
-.project-image-five video,
-.project-image-six img{
+.project-image-five img,
+.project-image-six video,
+.project-image-seven img{
   width: 65%;
   position: relative;
   display: block;
@@ -955,7 +952,7 @@ text-align: left;
 
 
 .project-copy-seperator {
-  background: #0b0b0bb0;
+  background: black;
   width: 100%;
   position: relative;
   display: block;
