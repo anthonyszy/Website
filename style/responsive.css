@@ -93,7 +93,8 @@ bottom:auto;
 
 }
 .about-container{
-  overflow-x: scroll;
+  overflow: scroll;
+  overflow-scrolling: touch;
   width: 100%;
   position: relative;
   bottom: 0;
