@@ -6,7 +6,9 @@ body {
     /* background-color: rgb(11,11,11); */
 
   font-family: 'Catamaran', sans-serif;
+
 }
+
 
 h1 {
   font-size: 30px;
@@ -519,7 +521,7 @@ position: relative;
 
 .about-info {
   color: white;
-  width: 50%;
+  width: 64%;
   position: relative;
   margin: auto;
   overflow: hidden;
