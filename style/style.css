@@ -485,6 +485,10 @@ text-align: center;
 .name-container.project-two h1 {
 color: #141417;
 }
+
+
+
+
 /*------about page----- */
 
 
@@ -594,7 +598,7 @@ background: white;
 
 .about-hello {
   overflow: hidden;
-  padding: 1% 0;
+  padding: 0.1% 0;
   text-align: center;
 }
 
@@ -783,6 +787,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   position: relative;
   right: 0;
   top: 0;
