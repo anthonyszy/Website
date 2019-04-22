@@ -82,6 +82,7 @@ and (orientation: landscape){
 }
 .about-hello h6{
   font-size: 1.5em;
+  opacity: 1;
 }
 .footer-container {
 position: inherit;
