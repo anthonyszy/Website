@@ -1007,8 +1007,7 @@ text-align: left;
 
 
 
-.project-image-three.fade-in.dlapiper-images,
-.project-image-six.fade-in.dlapiper-images{
+.project-image-three.fade-in.dlapiper-images{
   background: none;
   z-index: 3;
   overflow: hidden;
@@ -1016,7 +1015,15 @@ text-align: left;
 }
 
 
-
+.project-image-five.fade-in.dlapiper-images,
+.project-image-six.fade-down.dlapiper-images{
+  width: 50%;
+  position: relative;
+  display: inline-block ;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
 
 
 /*-----Metpolice-----*/

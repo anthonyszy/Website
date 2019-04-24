@@ -63,7 +63,7 @@ and (orientation: portrait){
   width: 50%;
 }
 p, em{
-font-size: 190%;
+font-size: 150%;
 }
 }
 
@@ -97,6 +97,7 @@ and (orientation: landscape){
 
 }
 .about-hello{
+  opacity: 0.8;
   width: 100%;
   display: block;
   position: relative;
@@ -156,16 +157,16 @@ bottom:auto;
 }
 
 @media screen and (min-width: 100px) and (max-width: 1000px)
-and (orientation: landscape){
+and (orientation: portrait){
 .about-container{
-  padding: 25% 0 30% 0;
+  padding: 40% 0 10% 0;
 }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1100px)
 and (orientation: landscape){
 .about-container{
-  padding: 35% 0 30% 0;
+  padding: 15% 0 10% 0;
 }
 }
 
@@ -181,7 +182,8 @@ and (orientation: landscape){
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
   p, em{
-  font-size: 140%;
+  font-size: 175%;
+  line-height: 175%;
 }
 .loaded .arrow-right, .loaded .arrow-left{
   opacity: 1;
@@ -192,14 +194,25 @@ font-size: 150%;
 .column-one em, .column-two em, .column-three em {
 font-size: 100%;
 }
+
+.footer-container h6,
+.footer-container h6 a,
+.footer-container p {
+font-size: 150%;
 }
-
-
+.mail-links h6:nth-child(2){
+  font-size: 170%;
+}
+}
 
 
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
 .project-header-image.metpolice  {
   background-position: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1000px) (hover: none) {
+    a:hover { color: inherit; }
 }
 }
