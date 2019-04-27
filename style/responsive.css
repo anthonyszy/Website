@@ -1,4 +1,5 @@
 
+
 @media screen and (min-width: 100px) and (max-width: 1000px) and (orientation: portrait) {
 .about-container {
 padding: 100% 0 13% 0;
@@ -86,5 +87,91 @@ font-size: 150%;
 @media screen and (min-width: 100px) and (max-width: 1000px){
 .project-header-image.metpolice  {
   background-position: center;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 1000px){
+  .bgimg {
+  height: 60vh;
+  width: 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+  .bgimg.project-three {
+      background-position: center;
+}
+
+.project-header-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: scroll;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.column-one,
+.column-two,
+.column-three{
+display: block;
+}
+}
+
+@media screen and (min-width: 10px) and (max-width: 1000px)
+and (orientation: portrait){
+  .index-project-name h1{
+    font-size: 300%;
+}
+.menu-right p a,
+.menu-left .project-button p,
+.menu-left .back-button p {
+  font-size: 160%;
+  text-align:center;
+}
+#preloader .preloader .intro {
+  font-size: 125%;
+}
+.menu-top h2 {
+  font-size: 7em;
+
+}
+.about-hello h6{
+  font-size: 1.5em;
+}
+.about-info {
+  width: 60%;
+}
+.arrow-right, .arrow-left{
+  width: 50%;
+}
+p, em{
+font-size: 150%;
+}
+}
+
+
+@media screen and (min-width: 10px) and (max-width: 1100px)
+and (orientation: landscape){
+  .menu-top {
+    top: 7%;
+  }
+  .menu-item a {
+    color: #141417;
+    font-size: 95%;
+    text-transform: uppercase;
+    font-family: 'moderat';
 }
 }
