@@ -725,6 +725,7 @@ background: white;
   display: inline-block;
   text-transform: uppercase;
   margin: 0.1em;
+  padding-top: 2em;
 }
 .project-name .padding-right{
   padding-right: 0.3em;
