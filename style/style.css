@@ -305,7 +305,7 @@ visibility: hidden;
   width: 17.361%;
   bottom: 0;
   left: 0;
-  z-index: 100;
+  z-index: 120;
   overflow: hidden;
 
   }
@@ -316,7 +316,7 @@ visibility: hidden;
   width: 17.361%;
   bottom: 0;
   right: 0;
-  z-index: 100;
+  z-index: 120;
   overflow: hidden;
 }
 
@@ -349,7 +349,7 @@ width: 100%;
 background: white;
 }
 
-/* 
+/*
 .back a:after{
 content: '';
 display: block;
