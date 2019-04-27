@@ -808,25 +808,30 @@ text-align: center;
 }
 
 .project-header-image.mercedes-benz {
-  /* background-image: url("../images/index-mercedes-benz.jpg"); */
+
   background-image: url("../images/mercedes-benz-header.jpg");
 }
 
 .project-header-image.dlapiper {
-  /* background-image: url("../images/index-mercedes-benz.jpg"); */
+
   background-image: url("../images/dlapiper-header.jpg");
 }
 
 
 
 .project-header-image.metpolice {
-  /* background-image: url("../images/index-mercedes-benz.jpg"); */
+
   background-image: url("../images/metpolice-header.jpg");
 }
 
 .project-header-image.boots {
-  /* background-image: url("../images/index-mercedes-benz.jpg"); */
   background-image: url("../images/boots-header.jpg");
+  background-position: left;
+
+}
+
+.project-header-image.jlr {
+  background-image: url("../images/jlr-header.jpg");
   background-position: left;
 
 }
@@ -989,6 +994,46 @@ text-align: left;
 }
 
 
+/*-----Mercedes-benz-----*/
+
+
+.project-image-four.fade-in.mercedes-benz-images img,
+.project-image-five.fade-in-delay.mercedes-benz-images img,
+.project-image-seven.fade-in.mercedes-benz-images img,
+.project-image-eight.fade-in-delay.mercedes-benz-images img{
+  width: 60%;
+  position: relative;
+  display: block;
+}
+
+.project-image-seven.fade-in.mercedes-benz-images img,
+.project-image-four.fade-in.mercedes-benz-images img{
+  right: 0;
+  float: right;
+  margin-right: 5%;
+}
+
+.project-image-eight.fade-in-delay.mercedes-benz-images img,
+.project-image-five.fade-in-delay.mercedes-benz-images img{
+  left: 0;
+  float: left;
+  margin-left: 5%;
+}
+
+.project-image-four.fade-in.mercedes-benz-images,
+.project-image-five.fade-in-delay.mercedes-benz-images,
+.project-image-seven.fade-in.mercedes-benz-images,
+.project-image-eight.fade-in-delay.mercedes-benz-images{
+  width: 50%;
+  position: relative;
+  display: inline-block ;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  margin-bottom: 5%
+}
+
+
 /*-----DLA-Piper-----*/
 
 
@@ -1025,6 +1070,25 @@ text-align: left;
   float: left;
 }
 
+.project-image-five.fade-in.dlapiper-images img{
+  right: 0;
+  float: right;
+  margin-right: 5%;
+}
+
+.project-image-six.fade-down.dlapiper-images img{
+  left: 0;
+  float: left;
+  margin-left: 5%;
+}
+
+.project-image-five.fade-in.dlapiper-images img,
+.project-image-six.fade-down.dlapiper-images img{
+  width: 60%;
+  position: relative;
+  display: block;
+}
+
 
 /*-----Metpolice-----*/
 
@@ -1033,6 +1097,11 @@ text-align: left;
   background: none;
 }
 
+.project-image-three.fade-in.metpolice-images img,
+.project-image-six.fade-in.metpolice-images img {
+  width: 65%;
+
+}
 
 
 /*-----boots-----*/
@@ -1067,6 +1136,16 @@ text-align: left;
 }
 
 
+
+/*----JLR-----*/
+
+.project-image-two video {
+  width: 65%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*------project-footer-----*/
 
