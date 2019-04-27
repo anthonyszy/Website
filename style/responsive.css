@@ -1,4 +1,15 @@
 
+@media screen and (min-width: 100px) and (max-width: 1000px) and (orientation: portrait) {
+.about-container {
+padding: 10% 0 13% 0;
+width: 70%
+}
+.about-info {
+  padding: 15% 0;
+  width: 97%
+}
+}
+
 @media screen and (min-width: 100px) and (max-width: 1000px){
   .bgimg {
   height: 60vh;
@@ -12,10 +23,10 @@
   margin: auto;
   overflow: hidden;
 }
+
   .bgimg.project-three {
       background-position: center;
 }
-
 .project-header-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,157 +38,12 @@
   margin: auto;
   overflow: hidden;
 }
-
 .column-one,
 .column-two,
 .column-three{
 display: block;
 }
 }
-
-/* @media screen and (min-width: 10px) and (max-width: 1000px)
-and (orientation: portrait){
-  .index-project-name h1{
-    font-size: 300%;
-}
-.menu-right p a,
-.menu-left .project-button p,
-.menu-left .back-button p {
-  font-size: 160%;
-  text-align:center;
-}
-#preloader .preloader .intro {
-  font-size: 125%;
-}
-.menu-top h2 {
-  font-size: 7em;
-
-}
-.about-hello h6{
-  font-size: 1.5em;
-}
-.about-info {
-  width: 60%;
-}
-.arrow-right, .arrow-left{
-  width: 50%;
-}
-p, em{
-font-size: 150%;
-}
-}
-
-
-@media screen and (min-width: 10px) and (max-width: 1100px)
-and (orientation: landscape){
-  .menu-top {
-    top: 7%;
-  }
-
-  .menu-item a {
-    color: #141417;
-    font-size: 90%;
-    text-transform: uppercase;
-    font-family: 'moderat';
-}
-.about-info {
-  width: 60%;
-  position: unset;
-  margin: auto;
-  color: white;
-  width: 64%;
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-  top: 55%; left: 50%;
-  transform: translate(-50%,-30%);
-  margin: 0;
-  padding: 0;
-  position: relative;
-
-}
-.about-hello{
-  opacity: 0.8;
-  width: 100%;
-  display: block;
-  position: relative;
-  left: 0;
-  overflow: hidden;
-  padding: 20% 0 20% 0;
-}
-.about-hello h6{
-  font-size: 2em;
-}
-.footer-container {
-position: inherit;
-margin: 0 0;
-width: 100%;
-height: auto;
-bottom:auto;
-
-}
-.about-container{
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-  width: 100%;
-  position: relative;
-  bottom: 0;
-
-  max-height: 100%;
-  z-index: 101;
-}
-.scroll-gradient{
-  pointer-events: none;
-  position: fixed;
-  width: 100%;
-  left: 0;
-  height: 20rem;
-  bottom: 0;
-  background-image: linear-gradient(transparent, #141417);
-  z-index: 10;
-  pointer-events: none;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: center;
-  justify-content: flex-end;
-  z-index: 102;
-}
-.scroll-direcion-container.about{
-  width: 100%;
-  position: fixed;
-  bottom: 5%;
-  z-index: 2;
-  color: #e8e8e8;
-  display: block;
-  text-align: center;
-  font-style: italic;
-}
-}
-
-@media screen and (min-width: 100px) and (max-width: 1000px)
-and (orientation: portrait){
-.about-container{
-  padding: 40% 0 10% 0;
-}
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1100px)
-and (orientation: landscape){
-.about-container{
-  padding: 5% 0 10% 0;
-}
-} */
-
-/* @media not all and (min-resolution:.001dpcm) {
-    @media {
-        .safari10 .project-header-image{
-          background-attachment: scroll;
-        }
-    }
-} */
-
 
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
@@ -203,16 +69,14 @@ font-size: 150%;
 .mail-links h6:nth-child(2){
   font-size: 170%;
 }
+.about-hello h6 {
+  font-size: 2em;
 }
-
+}
 
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
 .project-header-image.metpolice  {
   background-position: center;
-}
-
-@media screen and (min-width: 100px) and (max-width: 1000px) (hover: none) {
-    a:hover { color: inherit; }
 }
 }
