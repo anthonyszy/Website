@@ -427,7 +427,7 @@ bottom: 0;
 max-height: 100%;
 z-index: 101;
 height: 90vh;
-padding: 40% 0 10% 0;
+padding: 30% 0 10% 0;
 }
 .about-hello {
   width: 100%;
@@ -804,9 +804,24 @@ text-align: center;
 
 .project-header-image.jlr {
   background-image: url("../images/jlr-header.jpg");
-  background-position: left;
+  background-position: center;
 
 }
+.project-header-image.oneeighteight-Bet{
+  background-image: url("../images/188bet-header.jpg");
+  background-position: center;
+}
+.project-header-image.soapbox{
+  background-image: url("../images/soapbox_header.jpg");
+  background-position: center;
+}
+
+.project-header-image.find-a-pet{
+  background-image: url("../images/find-a-pet-header.jpg");
+  background-position: center;
+}
+
+
 
 /*--information-*/
 
@@ -1118,6 +1133,15 @@ text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+/*-----188bet-----*/
+
+.project-image-three.fade-in.oneeighteight-Bet-images img{
+  width: 50%;
+}
+
 
 /*------project-footer-----*/
 
