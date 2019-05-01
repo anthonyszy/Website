@@ -714,166 +714,166 @@ opacity: 0;
 
 
 
-.section .name-container h1:nth-child(1) {
-  opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
-
-          -webkit-transition: all 1.30s 0s ease-in-out;
-                  transition: all 1.30s 0s ease-in-out;
-
-}
 
 
 .section .name-container h1:nth-child(1){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 1.30s 0s ease-in-out;
-                  transition: all 1.30s 0s ease-in-out;
+          -webkit-transition: all 700ms 200ms ease-in-out;
+                  transition: all 700ms 200ms ease-in-out;
+
 
 }
-
 
 .section .name-container h1:nth-child(2){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 1.35s 0s ease-in-out;
-                  transition: all 1.35s 0s ease-in-out;
+          -webkit-transition: all 800ms 200ms ease-in-out;
+                  transition: all 800ms 200ms ease-in-out;
+
 
 }
+
+
 
 .section .name-container h1:nth-child(3){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 1.40s 0s ease-in-out;
-                  transition: all 1.40s 0s ease-in-out;
+          -webkit-transition: all 900ms 200ms ease-in-out;
+                  transition: all 900ms 200ms ease-in-out;
 
 }
 
-
 .section .name-container h1:nth-child(4){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 1.45s 0s ease-in-out;
-                  transition: all 1.45s 0s ease-in-out;
+          -webkit-transition: all 1000ms 200ms ease-in-out;
+                  transition: all 1000ms 200ms ease-in-out;
 
 }
 
 .section .name-container h1:nth-child(5){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 1.55s 0s ease-in-out;
-                  transition: all 1.55s 0s ease-in-out;
+          -webkit-transition: all 1100ms 200ms ease-in-out;
+                  transition: all 1100ms 200ms ease-in-out;
 
 }
-
-
 .section .name-container h1:nth-child(6){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2s 0s ease-in-out;
-                  transition: all 2s 0s ease-in-out;
+          -webkit-transition: all 1200ms 200ms ease-in-out;
+                  transition: all 1200ms 200ms ease-in-out;
+
 }
 
 .section .name-container h1:nth-child(7){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2.05s 0s ease-in-out;
-                  transition: all 2.05s 0s ease-in-out;
-
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
 
 }
 
 .section .name-container h1:nth-child(8){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2.10s 0s ease-in-out;
-                  transition: all 2.10s 0s ease-in-out;
-
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
 
 }
 
-
-
 .section .name-container h1:nth-child(9){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2.15s 0s ease-in-out;
-                  transition: all 2.15s 0s ease-in-out;
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
 
 }
 
 .section .name-container h1:nth-child(10){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2.20s 0s ease-in-out;
-                  transition: all 2.20s 0s ease-in-out;
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
 
 }
+
 
 .section .name-container h1:nth-child(11){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2.25s 0s ease-in-out;
-                  transition: all 2.25s 0s ease-in-out;
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
 
 }
+
 .section .name-container h1:nth-child(12){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2.30s 0s ease-in-out;
-                  transition: all 2.30s 0s ease-in-out;
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
 
 }
+
 
 .section .name-container h1:nth-child(13){
   opacity: 0;
-  -webkit-transform: translateY(600%);
-      -ms-transform: translateY(600%);
-          transform: translateY(600%);
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
 
-          -webkit-transition: all 2.35s 0s ease-in-out;
-                  transition: all 2.35s 0s ease-in-out;
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
 
 }
 
+.section .name-container h1:nth-child(14){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1300ms 200ms ease-in-out;
+                  transition: all 1300ms 200ms ease-in-out;
+
+}
 
 .loaded .name-container h1,
 .section.active .name-container h1{
