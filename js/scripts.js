@@ -44,6 +44,7 @@ $(document).ready(function(){
   $('.logo').toggleClass('transform-active');
   $('.bgimg').toggleClass('transform-active');
   $('.name-container').toggleClass('transform-active');
+  $('.featured-projects-number-container').toggleClass('transform-active');
 });
 
 //

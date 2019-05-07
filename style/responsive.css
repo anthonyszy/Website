@@ -33,6 +33,13 @@ margin: auto;
   margin: 0.1em;
   font-size: 33px;
 }
+.featured-projects-container {
+      top: 9%;
+}
+.featured-projects-number-container {
+  bottom: 9%;
+}
+
 }
 
 
