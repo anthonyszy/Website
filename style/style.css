@@ -26,8 +26,6 @@ h2 {
   font-weight: 100;
   letter-spacing: 10px;
 }
-
-
 h4 {
   font-size: 40px;
   font-family: 'moderat';
@@ -36,7 +34,7 @@ h4 {
   color: rgb(31, 31, 31);
 }
 p {
-  font-size: 18pxe;
+  font-size: 18px;
   font-weight: 200;
   line-height: 35px;
 }
@@ -411,88 +409,63 @@ text-align: center;
 color: #141417;
 }
 
-.featured-projects-container {
-  position: fixed;
-      display: block;
-      margin: auto;
-      width: 100%;
-      z-index: 1;
-      padding: 1% 0 1% 20%;
-      top: 5%;
-      overflow: hidden;
-}
 
-.featured-projects-container h6{
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #E8E8E7;
-  font-weight: 500;
-  font-size: 300%;
-  margin: auto;
-  float: left;
-  opacity: 0.2;
-  text-align: left;
-  color: transparent;
-  width: 100%;
-  font-family: 'moderat';
-  line-height: 100%;
-  display: contents;
-  word-spacing: 1000px;
-}
+
+
+  .featured-projects-container {
+     display: block;
+     position: absolute;
+     left: 20%;
+     bottom: 5%;
+     z-index: 1;
+     overflow: hidden;
+
+ }
+  .featured-projects-container h4 {
+   color: white;
+   display: inline-block;
+   margin: 0.1em;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #E8E8E7;
+   font-weight: 500;
+   font-size: 300%;
+   opacity: 0.5;
+   color: transparent;
+   font-family: 'moderat';
+ }
+  .featured-projects-container .padding-right{
+   padding-right: 0.3em;
+ }
+
+  .featured-projects-container .padding-left{
+   padding-left: 0.3em;
+ }
+
+
 
 
 .featured-projects-number-container {
+      display: block;
       position: absolute;
-      display: inline-block;
-      margin: auto;
-      z-index: 1;
       right: 20%;
       bottom: 5%;
+      z-index: 1;
       overflow: hidden;
-      float: right;
-      text-align: right;
+}
+.movingnumber-container{
 
 }
-
-.featured-projects-number-container h6{
+.featured-projects-number-container h4{
+  margin: 0.1em;
   font-weight: 500;
-  font-size: 500%;
-  opacity: 0;
-  float: right;
+  font-size: 300%;
+  opacity: 0.5;
   text-align: right;
   color: transparent;
-  width: 100%;
-  line-height: 100%;
-  display: contents;
-  /* margin-left: 1000%; */
-  letter-spacing: 0.2em;
-  font-family: 'moderat';
-
-}
-
-
-
-
-/* .featured-projects-container {
-  width: 100%;
-  display: block;
-  position: f;
-  left: 0;
-  overflow: hidden;
-  padding: 4% 0;
-}
-.featured-projects-container h6 {
-  letter-spacing: 0em;
-  color: white;
   display: inline-block;
-  text-transform: uppercase;
-  font-size: 2.7em;
-  font-weight: 900;
-  padding: 0 0.5em;
-  color: white;
-  opacity: 0.1;
-  text-align: center;
-  margin: auto;
-} */
+  font-family: 'moderat';
+}
+
 
 /*------about page----- */
 
