@@ -722,8 +722,8 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 700ms 200ms ease-in-out;
-                  transition: all 700ms 200ms ease-in-out;
+          -webkit-transition: all 700ms 1000ms ease-in-out;
+                  transition: all 700ms 1000ms ease-in-out;
 
 
 }
@@ -926,8 +926,8 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 900ms ease-in-out;
-                  transition: all 800ms 900ms ease-in-out;
+          -webkit-transition: all 1000ms 800ms ease-in-out;
+                  transition: all 1000ms 800ms ease-in-out;
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -939,9 +939,9 @@ opacity: 0;
   -webkit-transform: translateY(200%);
       -ms-transform: translateY(200%);
           transform: translateY(200%);
+          -webkit-transition: all 1100ms 800ms ease-in-out;
+                  transition: all 1100ms 800ms ease-in-out;
 
-          -webkit-transition: all 800ms 1000ms ease-in-out;
-                  transition: all 800ms 1000ms ease-in-out;
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 }
@@ -954,8 +954,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1100ms ease-in-out;
-                  transition: all 800ms 1100ms ease-in-out;
+          -webkit-transition: all 1200ms 800ms ease-in-out;
+                  transition: all 1200ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -968,8 +969,8 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1200ms ease-in-out;
-                  transition: all 800ms 1200ms ease-in-out;
+          -webkit-transition: all 1300ms 800ms ease-in-out;
+                  transition: all 1300ms 800ms ease-in-out;
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -982,8 +983,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1300ms ease-in-out;
-                  transition: all 800ms 1300ms ease-in-out;
+          -webkit-transition: all 1400ms 800ms ease-in-out;
+                  transition: all 1400ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -996,8 +998,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1400ms ease-in-out;
-                  transition: all 800ms 1400ms ease-in-out;
+          -webkit-transition: all 1500ms 800ms ease-in-out;
+                  transition: all 1500ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1010,8 +1013,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1500ms ease-in-out;
-                  transition: all 800ms 1500ms ease-in-out;
+          -webkit-transition: all 1600ms 800ms ease-in-out;
+                  transition: all 1600ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1023,8 +1027,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1600ms ease-in-out;
-                  transition: all 800ms 1600ms ease-in-out;
+          -webkit-transition: all 1700ms 800ms ease-in-out;
+                  transition: all 1700ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1037,8 +1042,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1700ms ease-in-out;
-                  transition: all 800ms 1700ms ease-in-out;
+          -webkit-transition: all 1800ms 800ms ease-in-out;
+                  transition: all 1800ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1050,8 +1056,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1800ms ease-in-out;
-                  transition: all 800ms 1800ms ease-in-out;
+          -webkit-transition: all 1900ms 800ms ease-in-out;
+                  transition: all 1900ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1064,8 +1071,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 1900ms ease-in-out;
-                  transition: all 800ms 1900ms ease-in-out;
+          -webkit-transition: all 2100ms 800ms ease-in-out;
+                  transition: all 2100ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1078,8 +1086,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 2100ms ease-in-out;
-                  transition: all 800ms 2100ms ease-in-out;
+          -webkit-transition: all 2200ms 800ms ease-in-out;
+                  transition: all 2200ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1093,8 +1102,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 2200ms ease-in-out;
-                  transition: all 800ms 2200ms ease-in-out;
+          -webkit-transition: all 2300ms 800ms ease-in-out;
+                  transition: all 2300ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1107,8 +1117,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 2300ms ease-in-out;
-                  transition: all 800ms 2300ms ease-in-out;
+          -webkit-transition: all 2400ms 800ms ease-in-out;
+                  transition: all 2400ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -1122,8 +1133,9 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 800ms 2400ms ease-in-out;
-                  transition: all 800ms 2400ms ease-in-out;
+          -webkit-transition: all 2500ms 800ms ease-in-out;
+                  transition: all 2500ms 800ms ease-in-out;
+
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 

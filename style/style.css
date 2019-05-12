@@ -90,8 +90,10 @@ li {
   list-style-type: none;
 }
 
-
-
+em {
+  font-style: normal;
+  font-weight: bold;
+}
 
 
 /*//------main-menu-page-------- */
