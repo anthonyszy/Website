@@ -939,8 +939,8 @@ opacity: 0;
   -webkit-transform: translateY(200%);
       -ms-transform: translateY(200%);
           transform: translateY(200%);
-          -webkit-transition: all 1100ms 800ms ease-in-out;
-                  transition: all 1100ms 800ms ease-in-out;
+          -webkit-transition: all 1050ms 800ms ease-in-out;
+                  transition: all 1050ms 800ms ease-in-out;
 
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
@@ -954,8 +954,8 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 1200ms 800ms ease-in-out;
-                  transition: all 1200ms 800ms ease-in-out;
+          -webkit-transition: all 1100ms 800ms ease-in-out;
+                  transition: all 1100ms 800ms ease-in-out;
 
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
@@ -969,8 +969,8 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 1300ms 800ms ease-in-out;
-                  transition: all 1300ms 800ms ease-in-out;
+          -webkit-transition: all 1150ms 800ms ease-in-out;
+                  transition: all 1150ms 800ms ease-in-out;
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
@@ -983,8 +983,8 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 1400ms 800ms ease-in-out;
-                  transition: all 1400ms 800ms ease-in-out;
+          -webkit-transition: all 1200ms 800ms ease-in-out;
+                  transition: all 1200ms 800ms ease-in-out;
 
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
@@ -993,6 +993,78 @@ opacity: 0;
 
 
 .project-name-container h4:nth-child(6){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1250ms 800ms ease-in-out;
+                  transition: all 1250ms 800ms ease-in-out;
+
+                  opacity: 2.30s ease-in-out;
+                  opacity: 0;
+
+}
+
+
+.project-name-container h4:nth-child(7){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1300ms 800ms ease-in-out;
+                  transition: all 1300ms 800ms ease-in-out;
+
+                  opacity: 2.30s ease-in-out;
+                  opacity: 0;
+
+}
+
+.project-name-container h4:nth-child(8){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1350ms 800ms ease-in-out;
+                  transition: all 1350ms 800ms ease-in-out;
+
+                  opacity: 2.30s ease-in-out;
+                  opacity: 0;
+
+}
+
+
+.project-name-container h4:nth-child(9){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1400ms 800ms ease-in-out;
+                  transition: all 1400ms 800ms ease-in-out;
+
+                  opacity: 2.30s ease-in-out;
+                  opacity: 0;
+
+}
+.project-name-container h4:nth-child(10){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1450ms 800ms ease-in-out;
+                  transition: all 1450ms 800ms ease-in-out;
+
+                  opacity: 2.30s ease-in-out;
+                  opacity: 0;
+
+}
+
+
+.project-name-container h4:nth-child(11){
   opacity: 0;
   -webkit-transform: translateY(200%);
       -ms-transform: translateY(200%);
@@ -1007,7 +1079,22 @@ opacity: 0;
 }
 
 
-.project-name-container h4:nth-child(7){
+.project-name-container h4:nth-child(12){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1550ms 800ms ease-in-out;
+                  transition: all 1550ms 800ms ease-in-out;
+
+                  opacity: 2.30s ease-in-out;
+                  opacity: 0;
+
+}
+
+
+.project-name-container h4:nth-child(13){
   opacity: 0;
   -webkit-transform: translateY(200%);
       -ms-transform: translateY(200%);
@@ -1019,9 +1106,26 @@ opacity: 0;
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
+
 }
 
-.project-name-container h4:nth-child(8){
+
+.project-name-container h4:nth-child(14){
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+
+          -webkit-transition: all 1650ms 800ms ease-in-out;
+                  transition: all 1650ms 800ms ease-in-out;
+
+                  opacity: 2.30s ease-in-out;
+                  opacity: 0;
+
+
+}
+
+.project-name-container h4:nth-child(15){
   opacity: 0;
   -webkit-transform: translateY(200%);
       -ms-transform: translateY(200%);
@@ -1033,108 +1137,18 @@ opacity: 0;
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
 
+
 }
 
 
-.project-name-container h4:nth-child(9){
+.project-name-container h4:nth-child(16){
   opacity: 0;
   -webkit-transform: translateY(200%);
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 1800ms 800ms ease-in-out;
-                  transition: all 1800ms 800ms ease-in-out;
-
-                  opacity: 2.30s ease-in-out;
-                  opacity: 0;
-
-}
-
-.project-name-container h4:nth-child(10){
-  opacity: 0;
-  -webkit-transform: translateY(200%);
-      -ms-transform: translateY(200%);
-          transform: translateY(200%);
-
-          -webkit-transition: all 1900ms 800ms ease-in-out;
-                  transition: all 1900ms 800ms ease-in-out;
-
-                  opacity: 2.30s ease-in-out;
-                  opacity: 0;
-
-}
-
-
-.project-name-container h4:nth-child(11){
-  opacity: 0;
-  -webkit-transform: translateY(200%);
-      -ms-transform: translateY(200%);
-          transform: translateY(200%);
-
-          -webkit-transition: all 2100ms 800ms ease-in-out;
-                  transition: all 2100ms 800ms ease-in-out;
-
-                  opacity: 2.30s ease-in-out;
-                  opacity: 0;
-
-}
-
-
-.project-name-container h4:nth-child(12){
-  opacity: 0;
-  -webkit-transform: translateY(200%);
-      -ms-transform: translateY(200%);
-          transform: translateY(200%);
-
-          -webkit-transition: all 2200ms 800ms ease-in-out;
-                  transition: all 2200ms 800ms ease-in-out;
-
-                  opacity: 2.30s ease-in-out;
-                  opacity: 0;
-
-
-}
-
-
-.project-name-container h4:nth-child(13){
-  opacity: 0;
-  -webkit-transform: translateY(200%);
-      -ms-transform: translateY(200%);
-          transform: translateY(200%);
-
-          -webkit-transition: all 2300ms 800ms ease-in-out;
-                  transition: all 2300ms 800ms ease-in-out;
-
-                  opacity: 2.30s ease-in-out;
-                  opacity: 0;
-
-
-}
-
-.project-name-container h4:nth-child(14){
-  opacity: 0;
-  -webkit-transform: translateY(200%);
-      -ms-transform: translateY(200%);
-          transform: translateY(200%);
-
-          -webkit-transition: all 2400ms 800ms ease-in-out;
-                  transition: all 2400ms 800ms ease-in-out;
-
-                  opacity: 2.30s ease-in-out;
-                  opacity: 0;
-
-
-}
-
-
-.project-name-container h4:nth-child(15){
-  opacity: 0;
-  -webkit-transform: translateY(200%);
-      -ms-transform: translateY(200%);
-          transform: translateY(200%);
-
-          -webkit-transition: all 2500ms 800ms ease-in-out;
-                  transition: all 2500ms 800ms ease-in-out;
+          -webkit-transition: all 1750ms 800ms ease-in-out;
+                  transition: all 1750ms 800ms ease-in-out;
 
                   opacity: 2.30s ease-in-out;
                   opacity: 0;
