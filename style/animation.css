@@ -722,8 +722,8 @@ opacity: 0;
       -ms-transform: translateY(200%);
           transform: translateY(200%);
 
-          -webkit-transition: all 700ms 1000ms ease-in-out;
-                  transition: all 700ms 1000ms ease-in-out;
+          -webkit-transition: all 700ms 200ms ease-in-out;
+                  transition: all 700ms 200ms ease-in-out;
 
 
 }
