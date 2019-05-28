@@ -85,7 +85,7 @@ display: block;
 
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
-  p, em{
+  p {
   font-size: 175%;
   line-height: 175%;
 }
@@ -182,9 +182,6 @@ and (orientation: portrait){
 }
 .arrow-right, .arrow-left{
   width: 50%;
-}
-p, em{
-font-size: 150%;
 }
 }
 
