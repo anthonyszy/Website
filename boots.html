@@ -283,7 +283,7 @@
 </footer> -->
 
   </main>
-  
+
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="js/jquery.fullpage.min.js"></script>
   <script src="js/scripts.js"></script>
@@ -6401,7 +6401,7 @@ ScrollReveal().reveal('.fade-in video', { distance: '300px' });
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
         if (decryptedHMAC !== encryptedHMAC) {
-            alert('Bad passphrase!');
+            alert('Please type in password!');
             return;
         }
 
