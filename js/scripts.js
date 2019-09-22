@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function() {
     $('#fullpage').fullpage({
 		sectionsColor: ['transparent', 'transparent', 'transparent'],
