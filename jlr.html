@@ -26,7 +26,7 @@
                 <input id="staticrypt-password"
                        type="password"
                        name="password"
-                       placeholder="Please enter the password to view portfolio"
+                       placeholder="Please type in the password provided to view the page"
                        autofocus/>
 
                 <input type="submit" class="staticrypt-decrypt-button" value="SUBMIT"/>
@@ -6399,7 +6399,7 @@ ScrollReveal().reveal('.fade-in video', { distance: '300px' });
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
         if (decryptedHMAC !== encryptedHMAC) {
-            alert('Bad passphrase!');
+            alert('Incorrect password. Please type in the correct password.');
             return;
         }
 
