@@ -878,6 +878,13 @@ text-align: center;
 
 
 
+
+.project-header-image.ic24{
+  background-image: url("../images/ic-header.jpg");
+  background-position: left;
+}
+
+
 /*--information-*/
 
 /*--info-1*/
