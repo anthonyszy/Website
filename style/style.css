@@ -753,7 +753,7 @@ background: white;
   }
 
   .bgimg.project-two {
-    background-image: url("../images/boots-header.jpg");
+    background-image: url("../images/ic-header.jpg");
   }
 
   .bgimg.project-three {
@@ -1340,4 +1340,16 @@ letter-spacing: 0.2em;
 
 .staticrypt-footer a {
     text-decoration: none;
+}
+
+.project-prototype {
+
+  margin:auto;
+  position: relative;
+  width: fit-content;
+  padding-bottom: 10%;
+}
+
+.desktop-prototype {
+  display: block;
 }
