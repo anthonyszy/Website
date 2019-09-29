@@ -69,16 +69,37 @@ $(document).ready(function(){
 // });
 // });
 
+// $(".btn").click(function() {
+//   $('.menu-container').removeClass('transform-active');
+// });
+//
+$(".btn").click(function() {
+  $('#preloader').addClass('animate');
+});
+
+    $(".btn").click(function() {
+          $('#preloader').addClass('animate');  // Added px to make it work,
+                                         //   or get rid of quotes -500
+        var href = $(this).attr('href');
+
+             // Delay setting the location for one second
+        setTimeout(function() {window.location = href}, 3000);
+        return false;
+    });
+
+
+
+
 $(document).ready(function() {
     setTimeout(function(){
         $('#index').addClass('loaded');
-    }, 2700);
+    }, 2);
 });
 
 $(document).ready(function() {
     setTimeout(function(){
   $('.index-project-name').toggleClass('transform-active');
-}, 2600);
+}, 2);
 });
 
 
@@ -87,6 +108,10 @@ $(document).ready(function() {
         $('#about, #project').addClass('loaded');
     }, 10);
 });
+
+
+
+
 
 // $('body').addClass('stop-scrolling')
 //

@@ -153,6 +153,32 @@ background: #141417;;
 }
 
 
+
+.enter-button-container {
+  color: #141417;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  top: 80%;
+}
+.btn-cont.enter .btn {
+    position: relative;
+    padding: 20px 70px;
+    border: 1px solid #141417;
+    color: #141417;
+    text-decoration: none;
+    font-size: 1.125em;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-cont.enter .btn a {
+color: #141417;
+text-decoration: none;
+
+}
 /*//------home-page-------- */
 
 
@@ -758,6 +784,22 @@ background: white;
 
   .bgimg.project-three {
     background-image: url("../images/index-metpolice.jpg");
+  }
+
+  .bgimg.project-four {
+    background-image: url("../images/boots-header.jpg");
+  }
+  .bgimg.project-five {
+    background-image: url("../images/jlr-header.jpg");
+  }
+  .bgimg.project-six {
+    background-image: url("../images/188bet-header.jpg");
+  }
+  .bgimg.project-seven {
+    background-image: url("../images/soapbox_header.jpg");
+  }
+  .bgimg.project-eight {
+    background-image: url("../images/find-a-pet-header.jpg");
   }
 
 
