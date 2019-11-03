@@ -801,7 +801,9 @@ background: white;
   .bgimg.project-eight {
     background-image: url("../images/find-a-pet-header.jpg");
   }
-
+  .bgimg.project-nine {
+    background-image: url("../images/ccl-header.jpg");
+  }
 
 
 /*------project-pages-----*/
@@ -887,6 +889,10 @@ text-align: center;
 }
 
 
+.project-header-image.ccl {
+
+  background-image: url("../images/ccl-header.jpg");
+}
 
 .project-header-image.metpolice {
 
