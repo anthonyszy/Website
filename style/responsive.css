@@ -162,7 +162,7 @@ display: block;
 @media screen and (min-width: 10px) and (max-width: 1000px)
 and (orientation: portrait){
   .index-project-name h1{
-    font-size: 300%;
+    font-size: 270%;
 }
 .menu-right p a,
 .menu-left .project-button p,

@@ -780,6 +780,7 @@ background: white;
 
   .bgimg.project-two {
     background-image: url("../images/ic-header.jpg");
+    background-position: center;
   }
 
   .bgimg.project-three {
@@ -788,21 +789,27 @@ background: white;
 
   .bgimg.project-four {
     background-image: url("../images/boots-header.jpg");
+    background-position: left;
   }
   .bgimg.project-five {
     background-image: url("../images/jlr-header.jpg");
+    background-position: center;
   }
   .bgimg.project-six {
     background-image: url("../images/188bet-header.jpg");
+    background-position: center;
   }
   .bgimg.project-seven {
     background-image: url("../images/soapbox_header.jpg");
+    background-position: center;
   }
   .bgimg.project-eight {
     background-image: url("../images/find-a-pet-header.jpg");
+    background-position: center;
   }
   .bgimg.project-nine {
     background-image: url("../images/ccl-header.jpg");
+    background-position: center;
   }
 
 
@@ -929,9 +936,12 @@ text-align: center;
 
 .project-header-image.ic24{
   background-image: url("../images/ic-header.jpg");
-  background-position: left;
+  background-position: center;
 }
 
+.project-header-image.ccl{
+  background-position: center;
+}
 
 /*--information-*/
 
