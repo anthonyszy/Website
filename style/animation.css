@@ -491,6 +491,18 @@ opacity: 1;
   opacity: 1;
 }
 
+#fp-nav {
+
+  -webkit-transition: all 1s 2s ease-in-out;
+          transition: all 1s 2s ease-in-out;
+
+        opacity: 0;
+}
+
+ .loaded #fp-nav{
+  opacity: 1;
+}
+
 
 
 /*--------clicking-menu------ */
