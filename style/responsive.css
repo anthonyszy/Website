@@ -197,10 +197,15 @@ and (orientation: landscape){
     font-family: 'moderat';
 }
 }
-
-@media screen and (min-width: 10px) and (max-width: 500px){
+@media screen and (min-width: 10px) and (max-width: 1000px)
+and (orientation: portrait){
   #fp-nav{
 display: none;
-
+}
+}
+@media screen and (min-width: 10px) and (max-width: 1000px)
+and (orientation: landscape){
+  #fp-nav{
+display: none;
 }
 }
