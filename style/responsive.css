@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 100px) and (max-width: 1000px) and (orientation: portrait) {
 .about-container {
-padding: 90% 0 13% 0;
+/* padding: 90% 0 13% 0; */
 width: 70%
 }
 .about-hello {
@@ -19,7 +19,7 @@ margin: auto;
   font-size: 2em;
 }
 .about-info {
-  padding: 15% 0;
+  padding: 5% 0;
   width: 90%;
 }
 .footer-copy {

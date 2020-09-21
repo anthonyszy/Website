@@ -3,11 +3,15 @@
 
 $(document).ready(function() {
     $('#fullpage').fullpage({
+    // anchors: ['Mercedes-Benz', 'ClevelandClinicLondon', 'dlapiper', 'IC24', 'MetPolice', 'Boots', 'JLR', '188Bet', 'SoapBox', 'FindAPet'],
 		sectionsColor: ['transparent', 'transparent', 'transparent'],
 		menu: '.main-nav ul',
     navigation: true,
-
-            easingcss3: 'cubic-bezier(0.645, 0.075, 0.33, 1)'
+    navigationPosition: 'left',
+    navigationTooltips: ['Mercedes-Benz', 'Cleveland Clinic</br>London', 'DLA Piper', 'IC24', 'Met Police', 'Boots', 'Jaguar Land</br>Rover', '188Bet', 'Soap Box', 'Find A Pet'],
+    tooltipsPostion: 'left',
+    classChange:'left',
+    easingcss3: 'cubic-bezier(0.645, 0.075, 0.33, 1)'
 	});
 });
 

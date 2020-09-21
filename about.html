@@ -16,15 +16,18 @@
     </div>
 
     <div class="background-fixed transform">
-      <span class="line top"></span>
+      <!-- <span class="line top"></span>
       <span class="line left"></span>
       <span class="line right"></span>
-      <span class="line bottom"></span>
+      <span class="line bottom"></span> -->
 
       <div class="menu-top">
         <div class="logo-container transform">
             <div class="overflow" style="overflow:hidden; padding:0; margin:0;">
-        <a href="index.html"><div class="logo transform"><h2 class="notranslate">A</h2></div></a>
+        <a href="index.html"><div class="logo transform"><img src="./images/a-logo.svg" alt="" style=" opacity: 0.5; width: 25%;
+    margin-left: auto;
+    margin-right: auto;"></div></a>
+
         </div>
         </div>
     </div>
@@ -103,7 +106,7 @@
 
       <div class="about-container">
         <div class="about-introduction">
-  <div class="about-hello-container transform" style="overflow:hidden; padding:0; margin:0;">
+  <!-- <div class="about-hello-container transform" style="overflow:hidden; padding:0; margin:0;">
         <div class="about-hello">
             <div class="overflow" style="overflow:hidden; padding:0; margin:0;">
 
@@ -122,33 +125,58 @@
 
         </div>
       </div>
-</div>
+</div> -->
 
         <div class="about-info">
-          <p style="font-size: 200%; font-weight: 500;">
+          <p style="font-size: 300%; font-weight: 0; line-height:1.3em; padding-top: 10%;">
             My name is Anthony Szymaniak, and I'm a UX/UI Designer from London.</p>
 
             <p>I am currently working at award-winning, empolyer-branding agency, Pink Squid, where I have worked with a number of different clients.
             </p>
-            <p>  If you'd like to reach out about a potential project or want to get to know me better, feel free to get in touch.
+            <p>  Here are just some of the clients I have worked with:
           </p>
           </div>
 </div>
-    <div class="footer-container">
+
+
+
+<div class="logos-row">
+  <div class="client-logo-container"><img src="./images/logo-mercedes.png" alt=""></div>
+    <div class="client-logo-container"><img src="./images/logo-vodafone.png" alt=""></div>
+      <div class="client-logo-container"><img src="./images/logo-dla-piper.png" alt=""></div>
+            <div class="client-logo-container"><img src="./images/logo-ccl.png" alt=""></div>
+            <div class="client-logo-container"><img src="./images/logo-just.png" alt=""></div>
+
+</div>
+
+<div class="logos-row">
+  <div class="client-logo-container"><img src="./images/logo-jde.png" alt=""></div>
+  <div class="client-logo-container"><img src="./images/logo-boots.png" alt=""></div>
+  <div class="client-logo-container"><img src="./images/logo-chivas.png" alt=""></div>
+      <div class="client-logo-container"><img src="./images/logo-jlr.png" alt=""></div>
+      <div class="client-logo-container"><img src="./images/logo-L&G.png" alt=""></div>
+
+</div>
+
+
+<div class="about-info">
+
+    <p>  If you'd like to reach out about a potential project or want to get to know me better, feel free to get in touch.</p>
+</div>
+
+<div class="contact-container">
+<div class="mail-links"><h6 style="padding-right: 5%"><a href="mailto:hello@eyeoftheant.com">Email </a></h6><h6> / </h6><h6 style="padding-left: 5%"><a href="https://www.linkedin.com/in/anthony-szymaniak-0a20a373/" target="_blank" > Linkedin</a></h6></div>
+</div>
+
+
+<!-- <div class="footer-container">
 <div class="mail-links"><h6 style="padding-right: 5%"><a href="mailto:hello@eyeoftheant.com">Email </a></h6><h6> / </h6><h6 style="padding-left: 5%"><a href="https://www.linkedin.com/in/anthony-szymaniak-0a20a373/" target="_blank" > Linkedin</a></h6></div>
 
 <div class="footer-copy"><p>Website designed and developed by Anthony Szymaniak.</p></div>
-    </div>
-  </div>
-  <div class="scroll-direcion-container about">
-      <div class="scroll-direcion">
-        <p>scroll down</p>
-      </div>
-  </div>
-<div class="scroll-gradient bottom"></div>
-<div class="scroll-gradient-block-off"></div>
+</div> -->
 
-<div class="scroll-gradient top"></div>
+</div>
+
 
 
 
@@ -173,15 +201,17 @@ ScrollReveal().reveal('.about-info p', { delay: 100 });
 ScrollReveal().reveal('.about-info p', { duration: 2000 });
 ScrollReveal().reveal('.about-info p', { distance: '100px' });
 
-ScrollReveal().reveal('.footer-container h6', { delay: 200 });
-ScrollReveal().reveal('.footer-container h6', { duration: 2000 });
-ScrollReveal().reveal('.footer-container h6', { distance: '100px' });
+ScrollReveal().reveal('.contact-container h6', { delay: 200 });
+ScrollReveal().reveal('.contact-container h6', { duration: 2000 });
+ScrollReveal().reveal('.contact-container h6', { distance: '100px' });
 
-ScrollReveal().reveal('.footer-container p', { delay: 300 });
-ScrollReveal().reveal('.footer-container p', { duration: 2000 });
-ScrollReveal().reveal('.footer-container p', { distance: '100px' });
+ScrollReveal().reveal('.contact-container p', { delay: 300 });
+ScrollReveal().reveal('.contact-container p', { duration: 2000 });
+ScrollReveal().reveal('.contact-container p', { distance: '100px' });
 
-
+ScrollReveal().reveal('.client-logo-container', { delay: 0 });
+ScrollReveal().reveal('.client-logo-container', { duration: 2000 });
+ScrollReveal().reveal('.client-logo-container', { distance: '100px' });
 
 ScrollReveal().reveal('.about-hello h6:nth-child(1)', { delay: 50 });
 ScrollReveal().reveal('.about-hello h6:nth-child(2)', { delay: 100 });
