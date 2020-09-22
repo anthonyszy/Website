@@ -252,14 +252,15 @@ right: 17.361%;
 .logo img{
   display: block;
   opacity: 1;
-  width: 60%;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logo img:hover {
-  width: 63%;
-  transition-duration: 0.4s;
+  color:red;
+  opacity: 0.2;
+  transition-duration: 1s;
 }
 
 /* .menu-left {
@@ -605,12 +606,12 @@ text-align: center;
   position: relative;
   margin: auto;
   position: relative;
-  padding: 3% 0;
+  padding: 1% 0;
 }
 .about-info h1{
   text-transform: none;
   font-weight: 200;
-  font-size: 40px;
+  font-size: 10%;
   color: #DAA520;
   letter-spacing: 1em;
 }
@@ -623,13 +624,13 @@ text-align: center;
 
 
 .contact-container {
-      width: 90%;
+      width: 100%;
       position: relative;
       margin: auto;
       overflow: hidden;
       margin: auto;
       position: relative;
-      padding: 1% 0;
+      padding: 0;
 
 }
 .contact-container h6,
@@ -638,7 +639,8 @@ text-align: center;
   text-align: center;
   font-size: 25px;
   font-weight: 300;
-
+  margin: 0;
+  padding-bottom: 0.5%;
   opacity: 1;
 }
 .contact-container p{
