@@ -3,10 +3,19 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#DAA520;}
+	.st0{fill:#000326;}
+	.st1{fill:#DAA520;}
 </style>
 <g>
-	<path class="st0" d="M0.5,58.5v-3.7L8.1,53L27.8,1.5h5.8l18.5,51.6l7.4,1.7v3.7H35.7v-3.7l6-1.4l-3.9-10.9H18l-4.2,10.7l7.1,1.6
-		v3.7H0.5z M19.8,37.7H36l-7.9-22.1L19.8,37.7z"/>
+	
+		<image style="overflow:visible;opacity:0.6;" width="74" height="74" xlink:href="47E55AA8A2A1AE72.png"  transform="matrix(1 0 0 1 -7 -7)">
+	</image>
+	<g>
+		<circle class="st0" cx="30" cy="30" r="27.6"/>
+	</g>
+</g>
+<g>
+	<path class="st1" d="M12.9,44.4v-2.1l4.4-1l11.4-29.9h3.4l10.7,29.9l4.3,1v2.1H33.3v-2.1l3.5-0.8l-2.3-6.3H23l-2.4,6.2l4.1,0.9v2.1
+		H12.9z M24.1,32.3h9.4l-4.6-12.8L24.1,32.3z"/>
 </g>
 </svg>
