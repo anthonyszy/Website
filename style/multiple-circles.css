@@ -11,9 +11,9 @@
 
   }
 
-  #Mercedes-Benz {
+  /* #Mercedes-Benz {
     color: green;
-  }
+  } */
 
 #fp-nav ul li a span:not(.fp-sr-only){
     left: 0;
@@ -122,10 +122,10 @@
 #fp-nav ul li .fp-tooltip {
     top: 0.1em;
     font-family: 'Catamaran', sans-serif;
-    color: white;
+    color: #DAA520;
     font-size: 0.55em;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 200;
     letter-spacing: 0.1em;
     text-align:right;
     opacity: 0.2;
@@ -147,15 +147,15 @@
 /* Colors
  * --------------------------------------- */
 #fp-nav ul li a span:not(.fp-sr-only)::before {
-    background: #E8E8E7;
-    opacity: 0.3;
+    background: #E8E8E8;
+    opacity: 1;
 }
 #fp-nav ul li a span:not(.fp-sr-only):after {
-    box-shadow: inset 1px 1px 1px 1px #FFFFFF;
+    box-shadow: inset 1px 1px 1px 1px #DAA520;
     opacity: 1;
 }
 #fp-nav ul li a.active span:not(.fp-sr-only)::after {
-    box-shadow: inset 1px 1px 1px 1px #FFFFFF;
+    box-shadow: inset 1px 1px 1px 1px #DAA520;
     opacity: 1;
 }
 
@@ -173,6 +173,9 @@
     height: 2.5em;
     width: 2.5em;
     opacity: 1;
+    background: #DAA520;
+    color: #DAA520;
+    background-color: #DAA520;
 }
 .fp-big-nav #fp-nav ul li .fp-tooltip{
     line-height: 20px;
