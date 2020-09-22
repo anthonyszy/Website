@@ -6,8 +6,8 @@
 .btn-cont .btn {
   position: relative;
   padding: 20px 70px;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #DAA520;
+  color: #DAA520;
   text-decoration: none;
   font-size: 1.125em;
   font-family: 'Catamaran', sans-serif;
@@ -39,7 +39,7 @@
   display: block;
   position: absolute;
   width: 1px;
-  background-color: white;
+  background-color: #DAA520;;
   left: 0;
   bottom: 0;
 }
@@ -48,7 +48,7 @@
   display: block;
   position: absolute;
   height: 1px;
-  background-color: white;
+  background-color: #DAA520;;
   left: 0;
   top: 0;
 }
@@ -57,7 +57,7 @@
   display: block;
   position: absolute;
   width: 1px;
-  background-color: white;
+  background-color: #DAA520;
   right: 0;
   top: 0;
 }
@@ -66,7 +66,7 @@
   display: block;
   position: absolute;
   height: 1px;
-  background-color: white;
+  background-color:#DAA520;;
   right: 0;
   bottom: 0;
 }
