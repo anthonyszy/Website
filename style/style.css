@@ -865,6 +865,13 @@ background: #DAA520;
     background-position: center;
 }
 
+.bgimg.project-vodafone{
+  background-image: url("../images/vf-index-header.jpg");
+  background-position: center;
+}
+
+/* v */
+
 /*------project-pages-----*/
 
 .project-name {
@@ -986,15 +993,17 @@ text-align: center;
   background-position: center;
 }
 
-
-
-
 .project-header-image.ic24{
   background-image: url("../images/ic-header.jpg");
   background-position: center;
 }
 
 .project-header-image.ccl{
+  background-position: center;
+}
+
+.project-header-image.vodafone{
+  background-image: url("../images/vf-header.jpg");
   background-position: center;
 }
 
