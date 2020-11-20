@@ -870,6 +870,10 @@ background: #DAA520;
   background-position: center;
 }
 
+.bgimg.project-just{
+  background-image: url("../images/just-menu-splash.jpg");
+  background-position: right;
+}
 /* v */
 
 /*------project-pages-----*/
@@ -1007,6 +1011,10 @@ text-align: center;
   background-position: center;
 }
 
+.project-header-image.just{
+  background-image: url("../images/just-splash.jpg");
+  background-position: center;
+}
 /*--information-*/
 
 /*--info-1*/
